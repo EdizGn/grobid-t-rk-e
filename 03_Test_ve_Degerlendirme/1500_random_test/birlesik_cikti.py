@@ -18,6 +18,9 @@ import glob
 import argparse
 from lxml import etree
 
+# Depo nereye klonlanirsa klonlansin dogru yeri gosterir.
+PROJE_KOK = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 NS = {'t': 'http://www.tei-c.org/ns/1.0'}
 TEI = "http://www.tei-c.org/ns/1.0"
 
@@ -142,7 +145,7 @@ def birlestir(D, W):
 
 def main():
     ap = argparse.ArgumentParser()
-    b = r"C:\Users\EG\Desktop\Tubitak___is\03_Test_ve_Degerlendirme\1500_random_test"
+    b = PROJE_KOK + r"\03_Test_ve_Degerlendirme\1500_random_test"
     ap.add_argument("--delft", default=os.path.join(b, "grobid_xml_delft_header"))
     ap.add_argument("--wapiti", default=os.path.join(b, "grobid_xml_yeni_model"))
     ap.add_argument("--out", default=os.path.join(b, "grobid_xml_birlesik"))

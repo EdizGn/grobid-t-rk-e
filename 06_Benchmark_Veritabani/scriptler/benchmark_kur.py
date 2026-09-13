@@ -11,7 +11,10 @@ Cikti: secim/benchmark_300.csv (+ sikinti_skoru/siddet) , secim/ozet_300.txt , s
 import os, csv, json, math, shutil, collections, argparse
 import numpy as np
 
-BASE = r"C:\Users\EG\Desktop\Tubitak___is"
+# Depo nereye klonlanirsa klonlansin dogru yeri gosterir.
+PROJE_KOK = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+BASE = PROJE_KOK + r""
 OUT = os.path.join(BASE, r"06_Benchmark_Veritabani")
 PI = os.path.join(OUT, "parmak_izi")
 SEC = os.path.join(OUT, "secim")

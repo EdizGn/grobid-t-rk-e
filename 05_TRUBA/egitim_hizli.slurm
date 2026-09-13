@@ -1,16 +1,17 @@
 #!/bin/bash
 #SBATCH -p barbun
-#SBATCH -A egun
+# TRUBA hesap adinizla degistirin (genelde kullanici adiniz)
+#SBATCH -A TRUBA_HESABINIZ
 #SBATCH -J grobid_hdr_hizli
 #SBATCH -N 1
 #SBATCH -n 1
 #SBATCH -c 40
 #SBATCH --mem=120G
 #SBATCH --time=06:00:00
-#SBATCH --output=/arf/scratch/egun/grobid/log/hizli-%j.out
-#SBATCH --error=/arf/scratch/egun/grobid/log/hizli-%j.err
+#SBATCH --output=/arf/scratch/%u/grobid/log/hizli-%j.out
+#SBATCH --error=/arf/scratch/%u/grobid/log/hizli-%j.err
 #SBATCH --mail-type=END,FAIL
-#SBATCH --mail-user=edizgunn@gmail.com
+# --mail-user verilmedi: SLURM postayi isi gonderen kullaniciya yollar
 
 # ---------------------------------------------------------------------------
 # GROBID header CRF modeli -- HIZLI VARYANT

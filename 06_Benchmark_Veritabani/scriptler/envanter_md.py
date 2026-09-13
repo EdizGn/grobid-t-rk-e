@@ -4,7 +4,10 @@
    Basliga gore ID listeleri + kisa aciklamalar. 'temiz' listelenmez."""
 import os, csv, collections, datetime
 
-BASE = r"C:\Users\EG\Desktop\Tubitak___is"
+# Depo nereye klonlanirsa klonlansin dogru yeri gosterir.
+PROJE_KOK = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+BASE = PROJE_KOK + r""
 TESHIS = os.path.join(BASE, r"03_Test_ve_Degerlendirme\benchmark_teshis\teshis_refined.csv")
 PI = os.path.join(BASE, r"06_Benchmark_Veritabani\parmak_izi\sablon_parmakizi.csv")
 OUT = os.path.join(BASE, r"06_Benchmark_Veritabani\SIKINTI_ENVANTERI.md")

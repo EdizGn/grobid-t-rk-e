@@ -13,7 +13,10 @@ import concurrent.futures as cf
 import requests
 import pypdfium2 as pdfium
 
-BASE = r"C:\Users\EG\Desktop\Tubitak___is"
+# Depo nereye klonlanirsa klonlansin dogru yeri gosterir.
+PROJE_KOK = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+BASE = PROJE_KOK + r""
 OUT = os.path.join(BASE, r"06_Benchmark_Veritabani")
 HAM = os.path.join(OUT, "kolay_ham")
 GOLD = os.path.join(OUT, "kolay_gold")

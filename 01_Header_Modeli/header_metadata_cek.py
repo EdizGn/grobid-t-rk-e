@@ -17,6 +17,9 @@ import argparse
 import requests
 import concurrent.futures
 
+# Depo nereye klonlanirsa klonlansin dogru yeri gosterir.
+PROJE_KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 API = "https://search.trdizin.gov.tr/api/publicationById/{}?archiveSearch=ADD_ARCHIVE"
 HEADERS = {
     "Accept": "application/json",
@@ -99,8 +102,8 @@ def cek(pub_id):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--corpus", default=r"C:\Users\EG\Desktop\Tubitak___is\grobid\grobid-trainer\resources\dataset\header\corpus\tei")
-    ap.add_argument("--db", default=r"C:\Users\EG\Desktop\Tubitak___is\01_Header_Modeli\header_metadatalar.db")
+    ap.add_argument("--corpus", default=PROJE_KOK + r"\grobid\grobid-trainer\resources\dataset\header\corpus\tei")
+    ap.add_argument("--db", default=PROJE_KOK + r"\01_Header_Modeli\header_metadatalar.db")
     ap.add_argument("--workers", type=int, default=4)
     a = ap.parse_args()
 

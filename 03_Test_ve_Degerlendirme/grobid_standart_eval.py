@@ -25,6 +25,9 @@ import argparse
 import unicodedata
 from lxml import etree
 
+# Depo nereye klonlanirsa klonlansin dogru yeri gosterir.
+PROJE_KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 NS = {'t': 'http://www.tei-c.org/ns/1.0'}
 
 
@@ -148,7 +151,7 @@ ALANLAR = ["title", "authors", "first_author", "abstract", "keywords"]
 
 def main():
     ap = argparse.ArgumentParser()
-    b = r"C:\Users\EG\Desktop\Tubitak___is\03_Test_ve_Degerlendirme\1500_random_test"
+    b = PROJE_KOK + r"\03_Test_ve_Degerlendirme\1500_random_test"
     ap.add_argument("--xml", default=os.path.join(b, "grobid_xml_birlesik"))
     ap.add_argument("--db", default=os.path.join(b, "test_metadatalar.db"))
     ap.add_argument("--dil", choices=["tr", "iki"], default="iki",

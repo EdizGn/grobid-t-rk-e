@@ -1,8 +1,11 @@
 import os
 import glob
 
+# Depo nereye klonlanirsa klonlansin dogru yeri gosterir.
+PROJE_KOK = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 # Düzenlenecek XML klasörü
-XML_DIR = r"C:\Users\EG\Desktop\Tubitak___is\1500_random_test\grobid_xml"
+XML_DIR = PROJE_KOK + r"\1500_random_test\grobid_xml"
 
 # Bozuk OCR / Font Encoding Karakterlerinin Doğru Türkçe Karşılıkları
 TEMIZLIK_SOZLUGU = {

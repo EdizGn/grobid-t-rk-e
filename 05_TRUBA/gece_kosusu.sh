@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # Gercek 0.9.1 stok modeliyle iki olcum: Ingilizce + Turkce
 set -uo pipefail
-KOK="C:/Users/EG/Desktop/Tubitak___is"
+# Depo nereye klonlanirsa klonlansin dogru yeri gosterir.
+KOK="$(cd "$(dirname "${BASH_SOURCE[0]:-$0}")/.." && pwd)"
 O="$KOK/05_TRUBA/olcumler"
 mkdir -p "$O"
 

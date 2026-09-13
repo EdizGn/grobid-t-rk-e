@@ -1,6 +1,7 @@
 #!/bin/bash
 #SBATCH -p orfoz
-#SBATCH -A egun
+# TRUBA hesap adinizla degistirin (genelde kullanici adiniz)
+#SBATCH -A TRUBA_HESABINIZ
 #SBATCH -J grobid_hdr_v4
 #SBATCH -N 1
 #SBATCH -n 1
@@ -11,10 +12,10 @@
 # cekirdeklik yer ariyordu ve zamanlanamiyordu. Olculen kullanim 40
 # thread'le 38 GB'di; 110G fazlasiyla yeter ve 56 cekirdege sigar.
 #SBATCH --time=05:00:00
-#SBATCH --output=/arf/scratch/egun/grobid/log/orfoz-%j.out
-#SBATCH --error=/arf/scratch/egun/grobid/log/orfoz-%j.err
+#SBATCH --output=/arf/scratch/%u/grobid/log/orfoz-%j.out
+#SBATCH --error=/arf/scratch/%u/grobid/log/orfoz-%j.err
 #SBATCH --mail-type=END,FAIL
-#SBATCH --mail-user=edizgunn@gmail.com
+# --mail-user verilmedi: SLURM postayi isi gonderen kullaniciya yollar
 
 # ---------------------------------------------------------------------------
 # GROBID header CRF -- v4 korpusu, TAM egitim (600 iterasyon)

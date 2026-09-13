@@ -2,8 +2,11 @@ import os
 import json
 import re
 
-dashboard_path = r'C:\Users\EG\Desktop\Tubitak___is\03_Test_ve_Degerlendirme\dashboard\data.js'
-xml_dir = r'C:\Users\EG\Desktop\Tubitak___is\03_Test_ve_Degerlendirme\1500_random_test\test_failed_100_out\gercek_header_hatalari'
+# Depo nereye klonlanirsa klonlansin dogru yeri gosterir.
+PROJE_KOK = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))))
+
+dashboard_path = PROJE_KOK + r'\03_Test_ve_Degerlendirme\dashboard\data.js'
+xml_dir = PROJE_KOK + r'\03_Test_ve_Degerlendirme\1500_random_test\test_failed_100_out\gercek_header_hatalari'
 
 # Veritabanını yükle
 with open(dashboard_path, 'r', encoding='utf-8') as f:

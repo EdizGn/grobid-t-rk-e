@@ -4,7 +4,10 @@
    Kaynak metrikler: teshis_refined.csv (havuz) + kolay_ham_hepsi.csv (kolay)"""
 import os, csv, collections
 
-BASE = r"C:\Users\EG\Desktop\Tubitak___is"
+# Depo nereye klonlanirsa klonlansin dogru yeri gosterir.
+PROJE_KOK = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+BASE = PROJE_KOK + r""
 B300 = os.path.join(BASE, r"06_Benchmark_Veritabani\secim\benchmark_300.csv")
 TESHIS = os.path.join(BASE, r"03_Test_ve_Degerlendirme\benchmark_teshis\teshis_refined.csv")
 KOLAY = os.path.join(BASE, r"06_Benchmark_Veritabani\kolay_ham_hepsi.csv")

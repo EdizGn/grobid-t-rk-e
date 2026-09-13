@@ -4,8 +4,11 @@ import PyPDF2
 from bs4 import BeautifulSoup
 import concurrent.futures
 
-PDF_DIR = r"C:\Users\EG\Desktop\Tubitak___is\1500_random_test\makaleler"
-XML_DIR = r"C:\Users\EG\Desktop\Tubitak___is\1500_random_test\grobid_xml"
+# Depo nereye klonlanirsa klonlansin dogru yeri gosterir.
+PROJE_KOK = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+PDF_DIR = PROJE_KOK + r"\1500_random_test\makaleler"
+XML_DIR = PROJE_KOK + r"\1500_random_test\grobid_xml"
 
 def analyze_offline(makale_id):
     pdf_path = os.path.join(PDF_DIR, f"makale_{makale_id}.pdf")
@@ -59,7 +62,7 @@ def analyze_offline(makale_id):
 
 def main():
     print("Tüm hatalı makaleler taranıyor...")
-    with open(r'C:\Users\EG\Desktop\Tubitak___is\03_Test_ve_Degerlendirme\dashboard\data.js', 'r', encoding='utf-8') as f:
+    with open(PROJE_KOK + r'\03_Test_ve_Degerlendirme\dashboard\data.js', 'r', encoding='utf-8') as f:
         js_icerik = f.read().replace('const kiyaslamaVerileri = ', '').strip().rstrip(';')
         data = json.loads(js_icerik)
         

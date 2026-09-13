@@ -1,14 +1,15 @@
 #!/usr/bin/env bash
 #SBATCH -p debug
-#SBATCH -A egun
+# TRUBA hesap adinizla degistirin (genelde kullanici adiniz)
+#SBATCH -A TRUBA_HESABINIZ
 #SBATCH -J sif_kur
 #SBATCH -N 1
 #SBATCH -n 1
 #SBATCH -c 16
 #SBATCH --mem=100G
 #SBATCH --time=03:00:00
-#SBATCH --output=/arf/scratch/egun/grobid/log/sifkur-%j.out
-#SBATCH --error=/arf/scratch/egun/grobid/log/sifkur-%j.err
+#SBATCH --output=/arf/scratch/%u/grobid/log/sifkur-%j.out
+#SBATCH --error=/arf/scratch/%u/grobid/log/sifkur-%j.err
 #
 # SBATCH ILE CALISTIRILIR:   sbatch delft_truba_kur.sh
 #

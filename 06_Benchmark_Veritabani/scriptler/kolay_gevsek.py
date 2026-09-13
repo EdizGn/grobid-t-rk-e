@@ -5,7 +5,7 @@
            + govde var + baslik makul (title_sim>=0.4).  Siki ozet/yazar esikleri YOK."""
 import os, csv
 
-OUT = os.path.join(r"C:\Users\EG\Desktop\Tubitak___is", "06_Benchmark_Veritabani")
+OUT = os.path.join(PROJE_KOK + r"", "06_Benchmark_Veritabani")
 SRC = os.path.join(OUT, "kolay_ham_hepsi.csv")
 DST = os.path.join(OUT, "kolay_adaylar.csv")
 
@@ -50,6 +50,9 @@ with open(DST, "w", newline="", encoding="utf-8-sig") as fh:
 print(f"{len(rows)} ham -> {len(out)} kolay aday")
 print("eleme:", red)
 import collections
+
+# Depo nereye klonlanirsa klonlansin dogru yeri gosterir.
+PROJE_KOK = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 print("dil:", dict(collections.Counter(r["dil"] for r in out)))
 print("farkli dergi:", len(set(r["gold_journal"] for r in out)))
 print("->", DST)

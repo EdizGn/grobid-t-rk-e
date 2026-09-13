@@ -22,7 +22,10 @@ logging.getLogger("pypdf").setLevel(logging.CRITICAL)
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import skor
 
-BASE = r"C:\Users\EG\Desktop\Tubitak___is"
+# Depo nereye klonlanirsa klonlansin dogru yeri gosterir.
+PROJE_KOK = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+BASE = PROJE_KOK + r""
 OUT = os.path.join(BASE, "06_Benchmark_Veritabani")
 SEC = os.path.join(OUT, "secim")
 TESHIS_D = os.path.join(BASE, r"03_Test_ve_Degerlendirme\benchmark_teshis")

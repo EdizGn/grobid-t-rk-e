@@ -12,7 +12,10 @@ Cikti: secim/benchmark_pool.csv , secim/atlanan.csv , secim/haric_temiz.csv ,
 import os, csv, json, shutil, collections, argparse
 import numpy as np
 
-BASE = r"C:\Users\EG\Desktop\Tubitak___is"
+# Depo nereye klonlanirsa klonlansin dogru yeri gosterir.
+PROJE_KOK = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+BASE = PROJE_KOK + r""
 TESHIS = os.path.join(BASE, r"03_Test_ve_Degerlendirme\benchmark_teshis\teshis_refined.csv")
 PI_DIR = os.path.join(BASE, r"06_Benchmark_Veritabani\parmak_izi")
 OUTSEC = os.path.join(BASE, r"06_Benchmark_Veritabani\secim")

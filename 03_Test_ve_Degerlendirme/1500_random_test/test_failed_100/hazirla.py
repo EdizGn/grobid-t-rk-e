@@ -3,9 +3,12 @@ import json
 import random
 import shutil
 
-dashboard_path = r'C:\Users\EG\Desktop\Tubitak___is\03_Test_ve_Degerlendirme\dashboard\data.js'
-pdf_dir = r'C:\Users\EG\Desktop\Tubitak___is\1500_random_test\makaleler'
-out_dir = r'C:\Users\EG\Desktop\Tubitak___is\test_failed_100'
+# Depo nereye klonlanirsa klonlansin dogru yeri gosterir.
+PROJE_KOK = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+
+dashboard_path = PROJE_KOK + r'\03_Test_ve_Degerlendirme\dashboard\data.js'
+pdf_dir = PROJE_KOK + r'\1500_random_test\makaleler'
+out_dir = PROJE_KOK + r'\test_failed_100'
 
 with open(dashboard_path, 'r', encoding='utf-8') as f:
     js_icerik = f.read().replace('const kiyaslamaVerileri = ', '').strip().rstrip(';')

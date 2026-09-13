@@ -1,6 +1,7 @@
 #!/bin/bash
 #SBATCH -p akya-cuda
-#SBATCH -A egun
+# TRUBA hesap adinizla degistirin (genelde kullanici adiniz)
+#SBATCH -A TRUBA_HESABINIZ
 #SBATCH -J grobid_delft
 #SBATCH -N 1
 #SBATCH -n 1
@@ -8,10 +9,10 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=80G
 #SBATCH --time=12:00:00
-#SBATCH --output=/arf/scratch/egun/grobid/log/delft-%j.out
-#SBATCH --error=/arf/scratch/egun/grobid/log/delft-%j.err
+#SBATCH --output=/arf/scratch/%u/grobid/log/delft-%j.out
+#SBATCH --error=/arf/scratch/%u/grobid/log/delft-%j.err
 #SBATCH --mail-type=END,FAIL
-#SBATCH --mail-user=edizgunn@gmail.com
+# --mail-user verilmedi: SLURM postayi isi gonderen kullaniciya yollar
 
 # ---------------------------------------------------------------------------
 # GROBID header modeli -- DeLFT (BidLSTM_CRF_FEATURES), akya-cuda GPU

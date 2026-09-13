@@ -14,7 +14,10 @@ import shutil
 import argparse
 import datetime
 
-KOK = r"C:\Users\EG\Desktop\Tubitak___is"
+# Depo nereye klonlanirsa klonlansin dogru yeri gosterir.
+PROJE_KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+KOK = PROJE_KOK + r""
 HEDEF = os.path.join(KOK, r"grobid\grobid-trainer\resources\dataset\header\corpus")
 
 

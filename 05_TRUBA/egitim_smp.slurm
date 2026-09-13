@@ -1,16 +1,17 @@
 #!/bin/bash
 #SBATCH -p smp
-#SBATCH -A egun
+# TRUBA hesap adinizla degistirin (genelde kullanici adiniz)
+#SBATCH -A TRUBA_HESABINIZ
 #SBATCH -J grobid_smp
 #SBATCH -N 1
 #SBATCH -n 1
 #SBATCH -c 112
 #SBATCH --mem=200G
 #SBATCH --time=12:00:00
-#SBATCH --output=/arf/scratch/egun/grobid/log/egitim-%j.out
-#SBATCH --error=/arf/scratch/egun/grobid/log/egitim-%j.err
+#SBATCH --output=/arf/scratch/%u/grobid/log/egitim-%j.out
+#SBATCH --error=/arf/scratch/%u/grobid/log/egitim-%j.err
 #SBATCH --mail-type=END,FAIL
-#SBATCH --mail-user=edizgunn@gmail.com
+# --mail-user verilmedi: SLURM postayi isi gonderen kullaniciya yollar
 
 # ---------------------------------------------------------------------------
 # GROBID header CRF modeli egitimi (Wapiti)

@@ -1,11 +1,14 @@
-﻿import os
+import os
 import requests
 import random
 import concurrent.futures
 import sqlite3
 
-HEDEF_KLASOR = r"C:\Users\EG\Desktop\Tubitak___is\1500_random_test\makaleler"
-DB_YOLU = r"C:\Users\EG\Desktop\Tubitak___is\1500_random_test\test_metadatalar.db"
+# Depo nereye klonlanirsa klonlansin dogru yeri gosterir.
+PROJE_KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+HEDEF_KLASOR = PROJE_KOK + r"\1500_random_test\makaleler"
+DB_YOLU = PROJE_KOK + r"\1500_random_test\test_metadatalar.db"
 HEDEF_SAYI = 1500
 MAX_ID = 2000000
 

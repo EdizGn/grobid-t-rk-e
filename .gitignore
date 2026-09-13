@@ -39,6 +39,9 @@
 !03_Test_ve_Degerlendirme/altin_test/secilen_idler.txt
 !03_Test_ve_Degerlendirme/altin_test/kararlar_*.json
 !06_Benchmark_Veritabani/*.csv
+# kume listeleri: hangi makale test, hangisi egitim. Depoyu klonlayanin
+# olcumleri tekrarlayabilmesi icin SART -- bu bilgi baska hicbir yerde yok.
+!kume_listeleri/*.txt
 
 # --- 5) hicbir kosulda girmeyecekler
 # (bu bolum en sonda: sonraki kural oncekini ezer)

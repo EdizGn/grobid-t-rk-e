@@ -3,10 +3,13 @@ import glob
 import json
 import re
 
-out_dir = r"C:\Users\EG\Desktop\Tubitak___is\test_failed_100_out"
+# Depo nereye klonlanirsa klonlansin dogru yeri gosterir.
+PROJE_KOK = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+
+out_dir = PROJE_KOK + r"\test_failed_100_out"
 xml_files = glob.glob(os.path.join(out_dir, "*.training.header.tei.xml"))
 
-with open(r"C:\Users\EG\Desktop\Tubitak___is\test_failed_100\titles_map.json", "r", encoding="utf-8") as f:
+with open(PROJE_KOK + r"\test_failed_100\titles_map.json", "r", encoding="utf-8") as f:
     titles = json.load(f)
 
 header_error = 0

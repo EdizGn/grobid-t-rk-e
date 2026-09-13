@@ -12,7 +12,8 @@
 # consolidateHeader=0 ile isleniyor; tek degisken header modeli.
 set -uo pipefail
 
-KOK="C:/Users/EG/Desktop/Tubitak___is"
+# Depo nereye klonlanirsa klonlansin dogru yeri gosterir.
+KOK="$(cd "$(dirname "${BASH_SOURCE[0]:-$0}")/.." && pwd)"
 O="$KOK/05_TRUBA/olcumler"
 
 MODEL="${1:-}"

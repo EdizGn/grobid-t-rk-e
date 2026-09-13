@@ -1,6 +1,10 @@
 import time
 import requests
 import sys
+import os
+
+# Depo nereye klonlanirsa klonlansin dogru yeri gosterir.
+PROJE_KOK = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
 print("Waiting for Grobid API to start...")
 for _ in range(100):
@@ -18,7 +22,7 @@ else:
     print("\nGrobid did not start in time.")
     sys.exit(1)
 
-pdf_file = r"C:\Users\EG\Desktop\Tubitak___is\grobid\dis_veriler\altin_veriseti\makale_12308.pdf"
+pdf_file = PROJE_KOK + r"\grobid\dis_veriler\altin_veriseti\makale_12308.pdf"
 print(f"Processing {pdf_file}...")
 
 with open(pdf_file, 'rb') as f:

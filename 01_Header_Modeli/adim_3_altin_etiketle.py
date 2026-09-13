@@ -4,8 +4,11 @@ import sqlite3
 import json
 import subprocess
 
+# Depo nereye klonlanirsa klonlansin dogru yeri gosterir.
+PROJE_KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 # Yollar
-ALTIN_KLASOR = r"C:\Users\EG\Desktop\Tubitak___is\makaleler_altin"
+ALTIN_KLASOR = PROJE_KOK + r"\makaleler_altin"
 RAW_DIR = os.path.join(ALTIN_KLASOR, "out")
 DB_PATH = os.path.join(ALTIN_KLASOR, "altin_metadatalar.db")
 OUT_DIR = os.path.join(ALTIN_KLASOR, "xml_egitim_verisi")
@@ -72,7 +75,7 @@ def etiketleme_baslat():
         out_path = os.path.join(OUT_DIR, basename)
         
         cmd = [
-            "python", r"C:\Users\EG\Desktop\Tubitak___is\altin_etiketleyici.py", 
+            "python", PROJE_KOK + r"\altin_etiketleyici.py", 
             "--raw", raw_path, 
             "--json", temp_json, 
             "--out", out_path

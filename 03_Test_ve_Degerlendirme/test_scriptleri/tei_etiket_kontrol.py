@@ -3,6 +3,9 @@ import sqlite3
 import glob
 import re
 
+# Depo nereye klonlanirsa klonlansin dogru yeri gosterir.
+PROJE_KOK = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 def etiketleri_duzelt(xml_klasoru, db_yolu, etiket_tipi="title"):
     """
     Grobid tarafından üretilen TEI XML dosyalarındaki dergi ve yıl etiketlerini,
@@ -125,8 +128,8 @@ def etiketleri_duzelt(xml_klasoru, db_yolu, etiket_tipi="title"):
 
 if __name__ == "__main__":
     # Örnek kullanım (Kendi yollarınızı buraya göre ayarlayabilirsiniz)
-    XML_KLASORU = r"C:\Users\EG\Desktop\Tubitak___is\xml_cikti"  # Grobid'in ürettiği XML'lerin olduğu klasör
-    DB_YOLU = r"C:\Users\EG\Desktop\Tubitak___is\ciktilar\tubitak_makaleler.db"
+    XML_KLASORU = PROJE_KOK + r"\xml_cikti"  # Grobid'in ürettiği XML'lerin olduğu klasör
+    DB_YOLU = PROJE_KOK + r"\ciktilar\tubitak_makaleler.db"
     
     # EĞER klasör yoksa oluştur (test için)
     if not os.path.exists(XML_KLASORU):

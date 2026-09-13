@@ -3,7 +3,10 @@ import requests
 from bs4 import BeautifulSoup
 import concurrent.futures
 
-PDF_DIR = r"C:\Users\EG\Desktop\Tubitak___is\1500_random_test\makaleler"
+# Depo nereye klonlanirsa klonlansin dogru yeri gosterir.
+PROJE_KOK = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+PDF_DIR = PROJE_KOK + r"\1500_random_test\makaleler"
 GROBID_URL = "http://localhost:8070/api"
 
 SAMPLE_IDS = [

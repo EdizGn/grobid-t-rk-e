@@ -19,7 +19,10 @@ import sqlite3
 import argparse
 import collections
 
-KOK = r"C:\Users\EG\Desktop\Tubitak___is"
+# Depo nereye klonlanirsa klonlansin dogru yeri gosterir.
+PROJE_KOK = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+KOK = PROJE_KOK + r""
 TEST = os.path.join(KOK, r"03_Test_ve_Degerlendirme\1500_random_test")
 
 

@@ -1,13 +1,14 @@
 #!/bin/bash
 #SBATCH -p debug
-#SBATCH -A egun
+# TRUBA hesap adinizla degistirin (genelde kullanici adiniz)
+#SBATCH -A TRUBA_HESABINIZ
 #SBATCH -J grobid_test
 #SBATCH -N 1
 #SBATCH -n 1
 #SBATCH -c 8
 #SBATCH --time=00:30:00
-#SBATCH --output=/arf/scratch/egun/grobid/log/test-%j.out
-#SBATCH --error=/arf/scratch/egun/grobid/log/test-%j.err
+#SBATCH --output=/arf/scratch/%u/grobid/log/test-%j.out
+#SBATCH --error=/arf/scratch/%u/grobid/log/test-%j.err
 
 # ---------------------------------------------------------------------------
 # ON KONTROL ISI -- asil egitimden once ortamin dogru oldugunu dogrular.

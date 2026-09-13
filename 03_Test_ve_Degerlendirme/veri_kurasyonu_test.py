@@ -5,6 +5,9 @@ import concurrent.futures
 import sqlite3
 import json
 
+# Depo nereye klonlanirsa klonlansin dogru yeri gosterir.
+PROJE_KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 # --- VERİTABANI BAŞLATMA ---
 def init_db(db_yolu):
     conn = sqlite3.connect(db_yolu)
@@ -111,7 +114,7 @@ def tek_makale_indir_ve_kaydet(pub_id, hedef_klasor, headers):
 
 
 # --- ANA ÇALIŞTIRMA FONKSİYONU ---
-def makale_indir_altin_standart(hedef_klasor=r"C:\Users\EG\Desktop\Tubitak___is\makaleler_test", toplam_hedef=200, dergi_limiti=5):
+def makale_indir_altin_standart(hedef_klasor=PROJE_KOK + r"\makaleler_test", toplam_hedef=200, dergi_limiti=5):
     baslangic_zamani = time.time()
     
     if not os.path.exists(hedef_klasor):
@@ -122,7 +125,7 @@ def makale_indir_altin_standart(hedef_klasor=r"C:\Users\EG\Desktop\Tubitak___is\
     cursor = conn.cursor()
 
     # Eğitim verilerinin ID'lerini al
-    egitim_db = r"C:\Users\EG\Desktop\Tubitak___is\makaleler_altin\altin_metadatalar.db"
+    egitim_db = PROJE_KOK + r"\makaleler_altin\altin_metadatalar.db"
     egitim_idleri = set()
     if os.path.exists(egitim_db):
         egitim_conn = sqlite3.connect(egitim_db)

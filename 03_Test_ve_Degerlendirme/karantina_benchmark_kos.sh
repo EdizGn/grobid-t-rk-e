@@ -3,7 +3,8 @@
 # karantina benchmark'ini kosar. Ikisini ayni anda calistirmak GROBID
 # container'ini OOM'a sokuyordu (daha once 137 ile olmustu).
 set -u
-KOK="C:/Users/EG/Desktop/Tubitak___is"
+# Depo nereye klonlanirsa klonlansin dogru yeri gosterir.
+KOK="$(cd "$(dirname "${BASH_SOURCE[0]:-$0}")/.." && pwd)"
 PARCA="$KOK/04_Genisletilmis_Egitim/.parca"
 CIKTI="$KOK/04_Genisletilmis_Egitim/egitim_verisi"
 

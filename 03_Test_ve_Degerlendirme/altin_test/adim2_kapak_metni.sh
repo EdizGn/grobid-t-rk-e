@@ -10,7 +10,8 @@
 
 set -euo pipefail
 
-KOK="C:/Users/EG/Desktop/Tubitak___is"
+# Depo nereye klonlanirsa klonlansin dogru yeri gosterir.
+KOK="$(cd "$(dirname "${BASH_SOURCE[0]:-$0}")/../.." && pwd)"
 GROBID="$KOK/grobid"
 GIRDI="${1:-$KOK/03_Test_ve_Degerlendirme/altin_test/pdf}"
 CIKTI="${2:-$KOK/03_Test_ve_Degerlendirme/altin_test/kapak_metni}"

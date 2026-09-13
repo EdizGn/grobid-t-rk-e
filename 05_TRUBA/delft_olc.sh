@@ -13,7 +13,8 @@
 # CRF container'ina DOKUNMAZ: full imaj 8071'de ayri container olarak kosar.
 set -uo pipefail
 
-KOK="C:/Users/EG/Desktop/Tubitak___is"
+# Depo nereye klonlanirsa klonlansin dogru yeri gosterir.
+KOK="$(cd "$(dirname "${BASH_SOURCE[0]:-$0}")/.." && pwd)"
 O="$KOK/05_TRUBA/olcumler"
 ETIKET="${1:-delft091}"
 IMAJ="grobid/grobid:0.9.1-full"

@@ -65,19 +65,27 @@ altında duruyor.
 ## Komut kartı — nerede çalıştırılır (9 Eylül 2026)
 
 Karışmaması için ayrılmıştır. `[YEREL]` = Windows'taki Git Bash,
-`[TRUBA]` = `ssh egun@172.16.6.11` sonrası kabuk.
+`[TRUBA]` = `ssh $KULLANICI@$TRUBA_SUNUCU` sonrası kabuk.
+
+Asagidaki ornekleri kullanmadan once kendi degerlerinizi verin:
+
+```bash
+KULLANICI=truba_kullanici_adiniz
+TRUBA_SUNUCU=172.16.6.11          # TRUBA giris dugumu (VPN arkasinda)
+KOK=/klonladiginiz/depo/yolu
+```
 
 ### 1. Paket / betik gönderme  — [YEREL]
 ```bash
-scp "C:/Users/EG/Desktop/Tubitak___is/05_TRUBA/paket_v4.tar.gz" egun@172.16.6.11:/arf/scratch/egun/
+scp "$KOK/05_TRUBA/paket_v4.tar.gz" $KULLANICI@$TRUBA_SUNUCU:/arf/scratch/$USER/
 ```
 ```bash
-scp "C:/Users/EG/Desktop/Tubitak___is/05_TRUBA/egitim_orfoz.slurm" "C:/Users/EG/Desktop/Tubitak___is/05_TRUBA/egitim_barbun.slurm" "C:/Users/EG/Desktop/Tubitak___is/05_TRUBA/olcum.slurm" egun@172.16.6.11:/arf/scratch/egun/grobid/
+scp "$KOK/05_TRUBA/egitim_orfoz.slurm" "$KOK/05_TRUBA/egitim_barbun.slurm" "$KOK/05_TRUBA/olcum.slurm" $KULLANICI@$TRUBA_SUNUCU:/arf/scratch/$USER/grobid/
 ```
 
 ### 2. Paketi açma  — [TRUBA]
 ```bash
-cd /arf/scratch/egun/grobid && mv grobid-trainer/resources/dataset/header/corpus corpus_v3_yedek && tar xzf ../paket_v4.tar.gz && ls grobid-trainer/resources/dataset/header/corpus/tei/*.xml | wc -l
+cd /arf/scratch/$USER/grobid && mv grobid-trainer/resources/dataset/header/corpus corpus_v3_yedek && tar xzf ../paket_v4.tar.gz && ls grobid-trainer/resources/dataset/header/corpus/tei/*.xml | wc -l
 ```
 `2153` görülmeli.
 
@@ -104,12 +112,12 @@ scancel <hala_kosan_isin_idsi>
 
 ### 6. Modeli indirme  — [YEREL]
 ```bash
-scp egun@172.16.6.11:"/arf/scratch/egun/grobid/grobid-home/models/header/model*.wapiti*" "C:/Users/EG/Desktop/Tubitak___is/05_TRUBA/"
+scp $KULLANICI@$TRUBA_SUNUCU:"/arf/scratch/$USER/grobid/grobid-home/models/header/model*.wapiti*" "$KOK/05_TRUBA/"
 ```
 
 ### 7. Ölçüm  — [YEREL]  (Docker Desktop açık olmalı)
 ```bash
-cd "C:/Users/EG/Desktop/Tubitak___is/05_TRUBA" && ./olc_model.sh model.wapiti v4_600
+cd "$KOK/05_TRUBA" && ./olc_model.sh model.wapiti v4_600
 ```
 
 ### Çıktı yolları
@@ -129,14 +137,14 @@ tar czf paket_v4.tar.gz -C paket .
 
 ### 2. TRUBA'ya gönder (OpenVPN açık olmalı)
 ```bash
-scp paket_v4.tar.gz egun@172.16.6.11:/arf/scratch/egun/
+scp paket_v4.tar.gz $KULLANICI@$TRUBA_SUNUCU:/arf/scratch/$USER/
 ```
 
 ### 3. TRUBA'da aç
 ```bash
-ssh egun@172.16.6.11
-mkdir -p /arf/scratch/egun/grobid
-cd /arf/scratch/egun/grobid
+ssh $KULLANICI@$TRUBA_SUNUCU
+mkdir -p /arf/scratch/$USER/grobid
+cd /arf/scratch/$USER/grobid
 tar xzf ../paket_v4.tar.gz
 mkdir -p log
 ls    # egitim.slurm, test_debug.slurm, grobid-home, grobid-trainer görünmeli
@@ -166,10 +174,10 @@ tail -f log/egitim-*.out
 ### 6. Modeli geri al
 ```bash
 # TRUBA'da:
-ls -la /arf/scratch/egun/grobid/grobid-home/models/header/
+ls -la /arf/scratch/$USER/grobid/grobid-home/models/header/
 
 # Yerelde:
-scp egun@172.16.6.11:/arf/scratch/egun/grobid/grobid-home/models/header/model.wapiti* .
+scp $KULLANICI@$TRUBA_SUNUCU:/arf/scratch/$USER/grobid/grobid-home/models/header/model.wapiti* .
 ```
 
 ## Önemli uyarılar

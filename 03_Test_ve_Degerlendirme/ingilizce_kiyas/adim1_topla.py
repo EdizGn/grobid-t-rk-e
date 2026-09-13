@@ -23,6 +23,9 @@ import threading
 import concurrent.futures
 from lxml import etree
 
+# Depo nereye klonlanirsa klonlansin dogru yeri gosterir.
+PROJE_KOK = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 S3 = "https://pmc-oa-opendata.s3.amazonaws.com/"
 H = {"User-Agent": "GROBID-TR-benchmark/1.0 (academic research)"}
 
@@ -125,7 +128,7 @@ def indir(pmc, pdf_dir):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--hedef", type=int, default=500)
-    ap.add_argument("--out", default=r"C:\Users\EG\Desktop\Tubitak___is\08_Ingilizce_Kiyas")
+    ap.add_argument("--out", default=PROJE_KOK + r"\08_Ingilizce_Kiyas")
     ap.add_argument("--workers", type=int, default=5)
     ap.add_argument("--tohum", type=int, default=42)
     a = ap.parse_args()

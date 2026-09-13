@@ -3,8 +3,8 @@ import glob
 import json
 import re
 
-out_dir = r"C:\Users\EG\Desktop\Tubitak___is\test_failed_100_out"
-titles_map = r"C:\Users\EG\Desktop\Tubitak___is\test_failed_100\titles_map.json"
+out_dir = PROJE_KOK + r"\test_failed_100_out"
+titles_map = PROJE_KOK + r"\test_failed_100\titles_map.json"
 
 with open(titles_map, "r", encoding="utf-8") as f:
     titles = json.load(f)
@@ -38,9 +38,12 @@ print(f"Segmentasyon Hatalarindan İlk 3: {seg_errors[:3]}")
 
 # Segmentasyon hatalari icinde taranmis PDF (metin yok) var mi diye bakalim
 import PyPDF2
+
+# Depo nereye klonlanirsa klonlansin dogru yeri gosterir.
+PROJE_KOK = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 scanned = []
 for mid, t in seg_errors:
-    pdf_path = os.path.join(r"C:\Users\EG\Desktop\Tubitak___is\test_failed_100", f"makale_{mid}.pdf")
+    pdf_path = os.path.join(PROJE_KOK + r"\test_failed_100", f"makale_{mid}.pdf")
     if os.path.exists(pdf_path):
         try:
             with open(pdf_path, 'rb') as f:

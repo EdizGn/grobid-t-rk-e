@@ -1,6 +1,9 @@
 import os
 import glob
 
+# Depo nereye klonlanirsa klonlansin dogru yeri gosterir.
+PROJE_KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 # Hedef Başlıklar
 titles = {
     '1302465': "Neuraxial anesthesia",
@@ -10,7 +13,7 @@ titles = {
     '63585': "Türkiye Ekonomisinde"
 }
 
-out_dir = r"C:\Users\EG\Desktop\Tubitak___is\test_failed_pdfs_out"
+out_dir = PROJE_KOK + r"\test_failed_pdfs_out"
 
 xml_files = glob.glob(os.path.join(out_dir, "*.training.header.tei.xml"))
 

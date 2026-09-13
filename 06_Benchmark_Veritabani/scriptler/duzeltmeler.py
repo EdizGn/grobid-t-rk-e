@@ -23,7 +23,10 @@ Idempotent: tekrar calistirilabilir.
 """
 import os, csv, re, glob, shutil, json
 
-BASE = r"C:\Users\EG\Desktop\Tubitak___is"
+# Depo nereye klonlanirsa klonlansin dogru yeri gosterir.
+PROJE_KOK = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+BASE = PROJE_KOK + r""
 OUT = os.path.join(BASE, "06_Benchmark_Veritabani")
 SEC = os.path.join(OUT, "secim")
 PDF300 = os.path.join(SEC, "pdf300")

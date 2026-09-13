@@ -13,6 +13,9 @@ import os, re, csv, glob, html, argparse, difflib, sqlite3
 from db_span import (canvas_tokens, hedef_tokens, find_span, find_span_detay,
                      tok_index, norm_kelime)
 
+# Depo nereye klonlanirsa klonlansin dogru yeri gosterir.
+PROJE_KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 # --- eski PDF font bozulmalari -------------------------------------------
 FIX = {"\u203a": "\u0131", "\ufb02": "\u015f", "\ufb01": "\u015e", "\u00a4": "\u011f",
        "\u2039": "\u0130", "\u00dd": "\u0130", "\u00fd": "\u0131", "\u00de": "\u015e",
@@ -567,16 +570,16 @@ def apply_spans(canvas, spans):
 
 def main():
     ap = argparse.ArgumentParser()
-    base = r"C:\Users\EG\Desktop\Tubitak___is\grobid\grobid-trainer\resources\dataset\header\corpus"
+    base = PROJE_KOK + r"\grobid\grobid-trainer\resources\dataset\header\corpus"
     ap.add_argument("--corpus", default=base)
-    ap.add_argument("--out", default=r"C:\Users\EG\Desktop\Tubitak___is\01_Header_Modeli\otomatik_etiketli")
-    ap.add_argument("--db", default=r"C:\Users\EG\Desktop\Tubitak___is\02_Segmentation_Modeli\makaleler_segmentation\segmentation_metadatalar.db")
+    ap.add_argument("--out", default=PROJE_KOK + r"\01_Header_Modeli\otomatik_etiketli")
+    ap.add_argument("--db", default=PROJE_KOK + r"\02_Segmentation_Modeli\makaleler_segmentation\segmentation_metadatalar.db")
     ap.add_argument("--yazar-zorunlu-degil", dest="yazar_serbest",
                     action="store_true",
                     help="Yazar etiketi bulunamayan belgeyi de altina al "
                          "(v3 davranisi). Varsayilan: karantinaya at.")
     ap.add_argument("--altin-db", dest="altin_db",
-                    default=r"C:\Users\EG\Desktop\Tubitak___is\01_Header_Modeli\header_metadatalar.db")
+                    default=PROJE_KOK + r"\01_Header_Modeli\header_metadatalar.db")
     a = ap.parse_args()
 
     dergi = {}

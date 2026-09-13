@@ -51,6 +51,56 @@ bırakıldı.
 | `05_TRUBA/paket*.tar.gz` (770 MB) | Derleme çıktısı | `05_TRUBA/` betikleri yeniden üretir |
 | `00_Eski_Arsiv/` (6,3 GB) | Eski deneme arşivi, içinde 10.000 PDF var | — |
 
+### Sıfırdan kurulum (depoyu klonlayan biri için)
+
+Depo kendi kendine yeter: aşağıdaki adımlar kimseye bir şey sormadan
+tamamlanır.
+
+```bash
+git clone <depo-adresi> && cd <depo>
+
+# 1) GROBID
+docker pull grobid/grobid:0.9.1-crf
+
+# 2) Eğitilmiş modeller (Releases'ten, indirince parmak iziyle doğrulanır)
+python 08_Modeller/model_indir.py --kur
+
+# 3) Makaleleri indir -- hangi makale hangi kümede, kume_listeleri/ söyler
+python 04_Genisletilmis_Egitim/adim1_veri_topla.py
+
+# 4) Ölçüm
+python 03_Test_ve_Degerlendirme/grobid_standart_eval.py --diakritik-yoksay
+```
+
+### Kümeler `kume_listeleri/` altında
+
+Hangi makalenin test, hangisinin eğitim kümesinde olduğu bilgisi sadece
+`.db` dosyalarının içindeydi; onlar da depoya giremiyor. Bu yüzden her küme
+düz bir kimlik listesine döküldü:
+
+| Dosya | Makale | Nedir |
+|---|---|---|
+| `test_1500.txt` | 1500 | **Ölçüm referansı.** Tüm TR ölçümleri bunun üzerinde |
+| `egitim_v4_2153.txt` | 2153 | Kurulu header modelinin eğitildiği belgeler |
+| `havuz_3992.txt` | 3992 | Genişletilmiş eğitim havuzu |
+| `altin_test_300.txt` | 300 | Elle doğrulama havuzu (50'si doğrulandı) |
+| `ingilizce_519.txt` | 519 | İngilizce kıyas kümesi (PMC) |
+| `karantina_1051.txt` | 1051 | Etiketleyicinin elediği, eğitimde görülmemiş belgeler |
+
+`python kume_listesi_uret.py` bu listeleri yeniden üretir ve **kesişim
+kontrolü** yapar. Kontrol bir sızıntı buldu: `1229729` hem `test_1500`'de hem
+`egitim_v4_2153`'te. Kaynağı eski 546'lık header kümesi — o küme test kümesi
+tanımlanmadan önce, dışlama mantığı olmadan yapılmıştı. Etkisi 1435 belgede
+1 (%0,07), ölçümleri değiştirmez; yeni boru hattı (`havuz_3992`) temiz.
+
+### Yollar ve kişisel bilgi
+
+Betiklerde makineye özel mutlak yol **yok**. Her biri kendi konumundan
+`PROJE_KOK` (Python) veya `KOK` (kabuk) hesaplar, yani depo nereye
+klonlanırsa çalışır. SLURM betiklerinde `#SBATCH -A TRUBA_HESABINIZ` yer
+tutucusu var — kendi hesabınızla değiştirin, yoksa iş "geçersiz hesap"
+hatasıyla durur (yanlış hesapla sessizce koşmasından iyidir).
+
 **İçeride olan ve önemli olanlar:** tüm betikler, `05_TRUBA/olcumler/*.txt`
 (bütün ölçüm sonuçları), `03_Test_ve_Degerlendirme/altin_test/` (50 makalenin
 elle doğrulanmış altın kümesi — projenin en değerli özgün ürünü),
@@ -201,10 +251,10 @@ diye ayrılmış). Özet:
 
 ```bash
 # [YEREL]
-scp 05_TRUBA/paket_v4.tar.gz egun@172.16.6.11:/arf/scratch/egun/
+scp 05_TRUBA/paket_v4.tar.gz $KULLANICI@$TRUBA_SUNUCU:/arf/scratch/$USER/
 
 # [TRUBA]
-cd /arf/scratch/egun/grobid && tar xzf ../paket_v4.tar.gz && sbatch egitim_orfoz.slurm
+cd /arf/scratch/$USER/grobid && tar xzf ../paket_v4.tar.gz && sbatch egitim_orfoz.slurm
 ```
 
 **Kuyruk seçimi ölçüldü** (2153 belge, iterasyon başına saniye):

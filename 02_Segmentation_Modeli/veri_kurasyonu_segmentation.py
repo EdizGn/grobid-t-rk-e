@@ -4,6 +4,9 @@ import time
 import concurrent.futures
 import sqlite3
 
+# Depo nereye klonlanirsa klonlansin dogru yeri gosterir.
+PROJE_KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 # --- VERİTABANI BAŞLATMA ---
 def init_db(db_yolu):
     conn = sqlite3.connect(db_yolu)
@@ -71,7 +74,7 @@ def tek_makale_indir_ve_kaydet(pub_id, hedef_klasor, headers):
         return f"[WARN] Hata ({e}) - ID: {pub_id}", None
 
 # --- ANA ÇALIŞTIRMA FONKSİYONU ---
-def makale_indir_segmentation(hedef_klasor=r"C:\Users\EG\Desktop\Tubitak___is\makaleler_segmentation", toplam_hedef=900, dergi_limiti=15):
+def makale_indir_segmentation(hedef_klasor=PROJE_KOK + r"\makaleler_segmentation", toplam_hedef=900, dergi_limiti=15):
     baslangic_zamani = time.time()
     
     if not os.path.exists(hedef_klasor):
@@ -93,7 +96,7 @@ def makale_indir_segmentation(hedef_klasor=r"C:\Users\EG\Desktop\Tubitak___is\ma
     # Header eğitimi (800) ve test seti (216) ID'lerini yükleyelim ki onları dışlayalım
     dislanacak_idler = set()
     
-    egitim_db = r"C:\Users\EG\Desktop\Tubitak___is\makaleler_altin\altin_metadatalar.db"
+    egitim_db = PROJE_KOK + r"\makaleler_altin\altin_metadatalar.db"
     if os.path.exists(egitim_db):
         try:
             conn_egitim = sqlite3.connect(egitim_db)
@@ -103,7 +106,7 @@ def makale_indir_segmentation(hedef_klasor=r"C:\Users\EG\Desktop\Tubitak___is\ma
         except:
             pass
 
-    test_db = r"C:\Users\EG\Desktop\Tubitak___is\makaleler_test\test_metadatalar.db"
+    test_db = PROJE_KOK + r"\makaleler_test\test_metadatalar.db"
     if os.path.exists(test_db):
         try:
             conn_test = sqlite3.connect(test_db)

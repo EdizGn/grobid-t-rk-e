@@ -2,8 +2,11 @@ import os
 import sqlite3
 import re
 
-db_path = r'C:\Users\EG\Desktop\Tubitak___is\grobid\dis_veriler\altin_veriseti\altin_metadatalar.db'
-tei_dir = r'C:\Users\EG\Desktop\Tubitak___is\grobid\grobid-trainer\resources\dataset\header\corpus\tei'
+# Depo nereye klonlanirsa klonlansin dogru yeri gosterir.
+PROJE_KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+db_path = PROJE_KOK + r'\grobid\dis_veriler\altin_veriseti\altin_metadatalar.db'
+tei_dir = PROJE_KOK + r'\grobid\grobid-trainer\resources\dataset\header\corpus\tei'
 
 def get_word_spans(text):
     spans = []

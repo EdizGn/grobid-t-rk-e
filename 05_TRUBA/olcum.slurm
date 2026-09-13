@@ -1,14 +1,15 @@
 #!/bin/bash
 #SBATCH -p debug
-#SBATCH -A egun
+# TRUBA hesap adinizla degistirin (genelde kullanici adiniz)
+#SBATCH -A TRUBA_HESABINIZ
 #SBATCH -J grobid_olcum
 #SBATCH -N 1
 #SBATCH -n 1
 #SBATCH -c 40
 #SBATCH --mem=100G
 #SBATCH --time=00:50:00
-#SBATCH --output=/arf/scratch/egun/grobid/log/olcum-%j.out
-#SBATCH --error=/arf/scratch/egun/grobid/log/olcum-%j.err
+#SBATCH --output=/arf/scratch/%u/grobid/log/olcum-%j.out
+#SBATCH --error=/arf/scratch/%u/grobid/log/olcum-%j.err
 
 # ---------------------------------------------------------------------------
 # DONANIM / ALGORITMA KIYASI -- gercek korpusta 5 iterasyon kosup

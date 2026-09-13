@@ -19,7 +19,10 @@ import sqlite3
 import argparse
 import subprocess
 
-KOK = r"C:\Users\EG\Desktop\Tubitak___is"
+# Depo nereye klonlanirsa klonlansin dogru yeri gosterir.
+PROJE_KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+KOK = PROJE_KOK + r""
 
 
 def main():

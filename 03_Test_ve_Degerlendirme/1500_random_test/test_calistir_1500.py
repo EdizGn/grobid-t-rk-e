@@ -4,8 +4,11 @@ import glob
 import time
 import concurrent.futures
 
-PDF_DIR = r"C:\Users\EG\Desktop\Tubitak___is\1500_random_test\makaleler"
-XML_DIR = r"C:\Users\EG\Desktop\Tubitak___is\1500_random_test\grobid_xml"
+# Depo nereye klonlanirsa klonlansin dogru yeri gosterir.
+PROJE_KOK = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+PDF_DIR = PROJE_KOK + r"\1500_random_test\makaleler"
+XML_DIR = PROJE_KOK + r"\1500_random_test\grobid_xml"
 GROBID_URL = "http://localhost:8070/api/processHeaderDocument"
 
 os.makedirs(XML_DIR, exist_ok=True)

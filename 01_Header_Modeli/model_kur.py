@@ -21,6 +21,9 @@ import shutil
 import argparse
 import subprocess
 
+# Depo nereye klonlanirsa klonlansin dogru yeri gosterir.
+PROJE_KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 
 def calistir(cmd, **kw):
     return subprocess.run(cmd, capture_output=True, text=True, **kw)
@@ -38,7 +41,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--model", default="header")
     ap.add_argument("--grobid-home",
-                    default=r"C:\Users\EG\Desktop\Tubitak___is\grobid\grobid-home")
+                    default=PROJE_KOK + r"\grobid\grobid-home")
     ap.add_argument("--no-docker", action="store_true")
     ap.add_argument("--kaynak", default=None,
                     help="Kurulacak model dosyasi. TRUBA'dan indirilen modeli "

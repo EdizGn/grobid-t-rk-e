@@ -5,7 +5,10 @@
    Cikti: zor_adaylar.csv"""
 import os, csv, collections
 
-B = r"C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani"
+# Depo nereye klonlanirsa klonlansin dogru yeri gosterir.
+PROJE_KOK = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+B = PROJE_KOK + r"\06_Benchmark_Veritabani"
 SRC = os.path.join(B, "kolay_ham_hepsi.csv")
 USED = os.path.join(B, "secim", "benchmark_300_v2.csv")
 KOLAY = os.path.join(B, "kolay_adaylar.csv")

@@ -3,7 +3,10 @@ import glob
 from collections import Counter
 from bs4 import BeautifulSoup
 
-XML_DIR = r"C:\Users\EG\Desktop\Tubitak___is\1500_random_test\grobid_xml"
+# Depo nereye klonlanirsa klonlansin dogru yeri gosterir.
+PROJE_KOK = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+XML_DIR = PROJE_KOK + r"\1500_random_test\grobid_xml"
 
 # İzin verilen standart karakterler
 IZIN_VERILENLER = set(

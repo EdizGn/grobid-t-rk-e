@@ -18,7 +18,10 @@ from PIL import Image, ImageFilter
 from pdfminer.high_level import extract_pages
 from pdfminer.layout import LAParams, LTTextLine, LTTextContainer, LTChar, LTTextLineHorizontal
 
-BASE = r"C:\Users\EG\Desktop\Tubitak___is"
+# Depo nereye klonlanirsa klonlansin dogru yeri gosterir.
+PROJE_KOK = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+BASE = PROJE_KOK + r""
 TESHIS_CSV = os.path.join(BASE, r"03_Test_ve_Degerlendirme\benchmark_teshis\teshis_refined.csv")
 OUT = os.path.join(BASE, r"06_Benchmark_Veritabani")
 PI_DIR = os.path.join(OUT, "parmak_izi")
