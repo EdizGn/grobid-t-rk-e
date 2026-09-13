@@ -1,0 +1,38 @@
+Degerlendirilen: 519 dosya   |   referans dili: sadece TR
+
+#### Strict Matching (exact matches)
+| label          | precision |    recall |        f1 | support |
+|----------------|-----------|-----------|-----------|---------|
+| title          |     80.35 |     78.81 |     79.57 |     519 |
+| authors        |     47.46 |     46.82 |     47.14 |     519 |
+| first_author   |     62.89 |     62.04 |     62.46 |     519 |
+| abstract       |     18.90 |     17.92 |     18.40 |     519 |
+| keywords       |     91.97 |     72.17 |     80.88 |     460 |
+
+#### Soft Matching (punctuation/case/space ignored)
+| label          | precision |    recall |        f1 | support |
+|----------------|-----------|-----------|-----------|---------|
+| title          |     96.27 |     94.41 |     95.33 |     519 |
+| authors        |     47.46 |     46.82 |     47.14 |     519 |
+| first_author   |     71.09 |     70.13 |     70.61 |     519 |
+| abstract       |     66.26 |     62.81 |     64.49 |     519 |
+| keywords       |     91.97 |     72.17 |     80.88 |     460 |
+
+#### Levenshtein Matching (>= 0.8)
+| label          | precision |    recall |        f1 | support |
+|----------------|-----------|-----------|-----------|---------|
+| title          |     97.25 |     95.38 |     96.30 |     519 |
+| authors        |     69.73 |     68.79 |     69.25 |     519 |
+| first_author   |     74.80 |     73.80 |     74.30 |     519 |
+| abstract       |     80.49 |     76.30 |     78.34 |     519 |
+| keywords       |     93.35 |     73.26 |     82.10 |     460 |
+
+#### Ratcliff/Obershelp Matching (>= 0.95)
+| label          | precision |    recall |        f1 | support |
+|----------------|-----------|-----------|-----------|---------|
+| title          |     97.25 |     95.38 |     96.30 |     519 |
+| authors        |     58.98 |     58.19 |     58.58 |     519 |
+| first_author   |     72.27 |     71.29 |     71.77 |     519 |
+| abstract       |     78.46 |     74.37 |     76.36 |     519 |
+| keywords       |     92.52 |     72.61 |     81.36 |     460 |
+

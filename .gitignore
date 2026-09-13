@@ -1,0 +1,64 @@
+# Bu depo YALNIZCA kodu ve belgeleri tasir.
+#
+# Proje klasoru diskte ~34 GB ve 200.000'den fazla dosya. Bunun neredeyse
+# tamami uretilmis veri: makale PDF'leri, GROBID egitim dosyalari, XML
+# ciktilari, egitilmis modeller. Hicbiri depoya girmemeli:
+#
+#   - PDF'ler telifli akademik makaleler, halka acik bir depoya konulamaz
+#   - .wapiti modellerin bir kismi 100 MB'i asiyor, GitHub dosyayi reddeder
+#   - egitim/XML ciktilari betiklerden yeniden uretilebilir
+#
+# Bu yuzden "once her seyi yoksay, sonra kodu geri al" yaklasimi kullaniliyor.
+# Yeni bir dosya turu eklerken beyaz listeye eklemeyi unutmayin, yoksa
+# sessizce disarida kalir.
+
+# --- 1) her seyi yoksay
+*
+
+# --- 2) klasorlere inebilmek icin
+!*/
+
+# --- 3) kod ve belgeler
+!.gitignore
+!.gitattributes
+!*.py
+!*.sh
+!*.slurm
+!*.md
+!*.html
+!*.css
+!*.js
+!*.yaml
+!*.yml
+
+# --- 4) tasinmasi gereken kucuk veri
+# olcum ciktilarimiz: projenin asil sonuclari, toplam 100 KB
+!05_TRUBA/olcumler/*.txt
+# 50 makalelik elle dogrulama: projenin en degerli ozgun urunu, 130 KB
+!03_Test_ve_Degerlendirme/altin_test/altin_test_metadatalar.db
+!03_Test_ve_Degerlendirme/altin_test/secilen_idler.txt
+!03_Test_ve_Degerlendirme/altin_test/kararlar_*.json
+!06_Benchmark_Veritabani/*.csv
+
+# --- 5) hicbir kosulda girmeyecekler
+# (bu bolum en sonda: sonraki kural oncekini ezer)
+
+# GROBID'in kendisi -- 9.95 GB. Depoya konmaz; kullanici kendi kurar.
+grobid/
+# proje icine kopyalanmis grobid-home'lar
+**/grobid-home/
+# TRUBA'ya gonderilen paketler -- 770 MB, her biri yeniden uretilebilir
+05_TRUBA/paket/
+05_TRUBA/paket*.tar.gz
+# egitilmis modeller -- 830 MB, bazilari 100 MB ustu.
+# GitHub Release olarak yayinlanir, depoda tutulmaz.
+# .wapiti dosyalari disarida, ama 08_Modeller/OKUBENI.md (hangi model nedir,
+# parmak izleri, hangi segmentasyonu ne zaman kullanmali) depoya girer.
+*.wapiti
+# eski arsiv -- 6.34 GB, icinde 10.000 PDF var
+00_Eski_Arsiv/
+
+__pycache__/
+*.pyc
+.claude/
+*.lnk

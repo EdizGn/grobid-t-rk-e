@@ -1,0 +1,26 @@
+# Satir sonu politikasi.
+#
+# NEDEN ONEMLI: bu projede CRLF bir kez cok vakit kaybettirdi. Windows'ta
+# uretilen dosyalar CRLF satir sonlu oluyor; Docker icindeki Wapiti ve
+# TRUBA'daki SLURM yalnizca LF kabul ediyor, aksi halde "invalid format"
+# verip cokuyorlar. Git'in otomatik donusumu bu hatayi klonlayan herkese
+# tasir. Asagidaki kurallar calisabilir dosyalari her yerde LF'te tutar.
+
+# varsayilan: metin olarak ele al, depoda LF sakla
+* text=auto eol=lf
+
+# sunucuda/konteynerda calisan her sey KESIN LF
+*.sh    text eol=lf
+*.slurm text eol=lf
+*.py    text eol=lf
+*.yaml  text eol=lf
+*.yml   text eol=lf
+
+# ikili dosyalar -- dokunma
+*.db      binary
+*.wapiti  binary
+*.pdf     binary
+*.png     binary
+*.jpg     binary
+*.gz      binary
+*.jar     binary

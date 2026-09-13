@@ -1,0 +1,292 @@
+﻿makale_id,temiz_tr,dil,pages,year,gold_journal,harf_orani,chars_per_page,tr_chars,replacement,title_sim,abstract_sim,author_recall,stock_body_len,grobid_ok,red,path
+23456,1,tr,6,2003,Van Tıp Dergisi,80.1,4395,1349,0,1.0,0.983,1.0,13753,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_23456.pdf
+27420,1,tr,9,2001,İstanbul Üniversitesi Veteriner Fakültesi Dergisi,92.4,3086,1395,0,0.896,0.531,1.0,18801,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_27420.pdf
+46493,0,tr,18,2005,Tarih Araştırmaları Dergisi,94.1,2773,1045,0,0.672,0.254,1.0,41088,1,baslik_sim=0.672;ozet_sim=0.254,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_46493.pdf
+51976,1,tr,11,2005,Mühendislik Bilimleri Dergisi,93.4,5138,1276,0,1.0,0.788,1.0,35825,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_51976.pdf
+54740,0,mix,10,1997,Yüzüncü Yıl Üniversitesi Veteriner Fakültesi Dergisi,78.6,4316,3315,0,0.843,0.0,0.5,30429,1,ozet-yok,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_54740.pdf
+55471,0,tr,18,2005,Tarih Araştırmaları Dergisi,93.3,2741,1000,0,0.679,1.0,1.0,36248,1,baslik_sim=0.679,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_55471.pdf
+55995,0,tr,14,1997,Lalahan Hayvancılık Araştırma Enstitüsü Dergisi,93.5,2435,1096,0,0.696,0.288,0.67,20189,1,baslik_sim=0.696;ozet_sim=0.288,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_55995.pdf
+57677,1,mix,5,2005,İstanbul Tıp Fakültesi Dergisi,82.6,4789,324,0,0.868,1.0,1.0,12720,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_57677.pdf
+59351,0,tr,19,2005,Selçuk Üniversitesi Sosyal Bilimler Enstitüsü Dergisi,97.0,3323,1520,0,1.0,0.01,1.0,47333,1,ozet_sim=0.01,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_59351.pdf
+68281,0,tr,7,2006,Klinik Psikofarmakoloji Bülteni,84.5,4680,382,0,0.953,0.021,0.75,18930,1,ozet_sim=0.021,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_68281.pdf
+72412,1,tr,5,2005,Yüzüncü Yıl Üniversitesi Veteriner Fakültesi Dergisi,87.3,4600,1383,0,1.0,0.72,1.0,12973,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_72412.pdf
+95366,1,tr,6,2009,Erciyes Tıp Dergisi,90.3,4356,384,0,0.805,0.997,0.67,12800,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_95366.pdf
+96335,1,tr,16,2009,Karamanoğlu Mehmetbey Üniversitesi İktisadi ve İdari Bilimler Fakültesi Dergisi,95.8,2519,906,0,1.0,1.0,1.0,34614,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_96335.pdf
+101668,1,mix,14,2008,Biological Diversity and Conservation,92.1,2532,934,0,1.0,1.0,1.0,16702,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_101668.pdf
+109728,0,tr,6,2010,Tıp Araştırmaları Dergisi,93.1,4179,1403,0,1.0,0.095,1.0,17977,1,ozet_sim=0.095,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_109728.pdf
+115015,1,tr,15,2011,Atatürk Üniversitesi Sosyal Bilimler Enstitüsü Dergisi,93.8,2859,1100,0,0.974,0.937,0.67,26426,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_115015.pdf
+121490,0,mix,21,2010,Erzincan Üniversitesi Eğitim Fakültesi Dergisi,94.1,1752,729,0,0.713,0.992,1.0,33383,1,baslik_sim=0.713,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_121490.pdf
+123941,0,tr,28,2010,Gazi Üniversitesi İktisadi ve İdari Bilimler Fakültesi Dergisi,95.3,2092,827,0,1.0,1.0,0.0,29818,1,yazar_rec=0.0,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_123941.pdf
+129580,0,tr,8,2011,Anadolu Hemşirelik ve Sağlık Bilimleri Dergisi,86.8,3852,1369,0,0.996,0.067,1.0,20371,1,ozet_sim=0.067,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_129580.pdf
+130461,0,tr,16,2011,Ondokuz Mayıs Üniversitesi Eğitim Fakültesi Dergisi,95.4,2423,1216,0,0.695,0.79,1.0,19473,1,baslik_sim=0.695,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_130461.pdf
+133334,1,tr,14,2012,Mustafa Kemal Üniversitesi Sosyal Bilimler Enstitüsü Dergisi,95.9,3142,1435,0,1.0,0.974,1.0,29193,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_133334.pdf
+139480,1,tr,7,2012,Yeni Tıp Dergisi,85.6,4759,1459,0,1.0,0.962,1.0,24025,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_139480.pdf
+140215,1,tr,19,2012,Hitit Üniversitesi İlahiyat Fakültesi Dergisi,93.2,2723,1038,0,0.964,0.852,1.0,38702,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_140215.pdf
+141250,0,tr,5,2012,Ege Tıp Dergisi,91.8,3822,1156,0,0.68,0.694,0.5,13688,1,baslik_sim=0.68,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_141250.pdf
+147157,1,tr,23,2012,Selçuk Üniversitesi Hukuk Fakültesi Dergisi,94.4,1896,698,0,0.894,0.715,1.0,36084,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_147157.pdf
+148455,0,tr,19,2013,Elektronik Sosyal Bilimler Dergisi (elektronik),94.5,2967,1170,0,0.68,0.998,1.0,40369,1,baslik_sim=0.68,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_148455.pdf
+151279,0,tr,14,2012,History Studies,88.9,3549,1051,0,0.971,1.0,0.0,24529,1,yazar_rec=0.0,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_151279.pdf
+157457,1,tr,7,2014,Ankara Üniversitesi Veteriner Fakültesi Dergisi,89.7,5312,1707,0,1.0,0.588,1.0,14238,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_157457.pdf
+159705,0,tr,9,2012,Türk Jinekoloji ve Obstetrik Derneği Dergisi,90.4,4492,380,0,0.948,0.052,1.0,23893,1,ozet_sim=0.052,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_159705.pdf
+162129,0,tr,7,2014,Türk Kardiyoloji Derneği Arşivi,90.2,4187,1461,0,0.689,0.981,1.0,16183,1,baslik_sim=0.689,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_162129.pdf
+162576,1,tr,10,2014,Hitit Üniversitesi Sosyal Bilimler Enstitüsü Dergisi,93.5,2819,1142,0,1.0,0.998,1.0,12957,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_162576.pdf
+165199,1,tr,5,2014,Türkderm-Deri Hastalıkları ve Frengi Arşivi,93.0,4208,1279,0,0.784,0.993,1.0,12958,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_165199.pdf
+169423,0,tr,8,2012,Anayasa Hukuku Dergisi,95.0,2500,1037,0,0.734,0.023,1.0,17621,1,baslik_sim=0.734;ozet_sim=0.023,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_169423.pdf
+169847,1,tr,15,2013,Ahi Evran Üniversitesi Kırşehir Eğitim Fakültesi Dergisi,92.6,3010,1490,0,0.98,0.474,1.0,29202,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_169847.pdf
+171599,0,mix,8,2012,Türk Hijyen ve Deneysel Biyoloji Dergisi,87.2,3367,1024,0,0.696,0.149,1.0,19416,1,baslik_sim=0.696;ozet_sim=0.149,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_171599.pdf
+173913,1,tr,15,2014,Diyanet İlmi Dergi,94.1,2763,1074,0,1.0,0.926,1.0,36190,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_173913.pdf
+175480,0,mix,5,2011,Cumhuriyet Tıp Dergisi (ELEKTRONİK),91.7,3187,815,0,0.701,0.927,1.0,7657,1,baslik_sim=0.701,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_175480.pdf
+176168,0,tr,6,2013,Cumhuriyet Tıp Dergisi (ELEKTRONİK),88.9,3950,735,0,0.689,0.027,1.0,10062,1,baslik_sim=0.689;ozet_sim=0.027,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_176168.pdf
+185228,0,tr,19,2014,Marmara Üniversitesi Hukuk Fakültesi Hukuk Araştırmaları Dergisi,92.5,3002,1040,0,0.651,0.947,0.0,49854,1,baslik_sim=0.651;yazar_rec=0.0,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_185228.pdf
+194149,1,tr,6,2016,Acta Odontologica Turcica,92.4,5405,2243,0,1.0,0.946,1.0,18468,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_194149.pdf
+195309,0,tr,5,2015,Journal of Clinical and Experimental Investigations,92.2,4483,1222,0,1.0,0.216,1.0,15540,1,ozet_sim=0.216,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_195309.pdf
+200077,1,mix,20,2015,İlköğretim Online (elektronik),95.3,4047,1453,0,1.0,1.0,1.0,56648,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_200077.pdf
+200554,0,mix,28,2016,SOSYAL GÜVENLİK DERGİSİ,94.4,2616,1113,0,0.708,0.91,1.0,41098,1,baslik_sim=0.708,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_200554.pdf
+201669,0,tr,22,2016,ÖNERİ,92.0,2478,1131,0,0.974,0.248,0.0,44155,1,ozet_sim=0.248;yazar_rec=0.0,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_201669.pdf
+210674,0,tr,6,2016,Iğdır Üniversitesi Fen Bilimleri Enstitüsü Dergisi,80.3,3292,1340,0,0.667,1.0,1.0,13566,1,baslik_sim=0.667,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_210674.pdf
+218966,0,tr,20,2016,Celal Bayar Üniversitesi Sosyal Bilimler Dergisi,92.2,3024,933,0,0.912,0.02,0.0,25604,1,ozet_sim=0.02;yazar_rec=0.0,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_218966.pdf
+220617,0,tr,25,2012,Dokuz Eylül Üniversitesi İktisadi ve İdari Bilimler Fakültesi Dergisi,94.5,2691,1200,0,0.975,0.013,1.0,41405,1,ozet_sim=0.013,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_220617.pdf
+221810,1,tr,14,2014,Bartın Üniversitesi Eğitim Fakültesi Dergisi,94.4,2475,996,0,1.0,1.0,1.0,14258,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_221810.pdf
+223840,1,tr,9,2014,Journal of FisheriesSciences.com,84.0,3844,1036,0,1.0,0.992,1.0,25291,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_223840.pdf
+227060,1,tr,14,2013,Gaziantep Üniversitesi Sosyal Bilimler Dergisi,94.7,3152,1371,0,0.963,0.981,1.0,20866,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_227060.pdf
+230619,1,mix,6,2012,Genel Tıp Dergisi,90.7,4215,966,0,1.0,0.623,1.0,11644,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_230619.pdf
+231184,1,tr,10,2016,İnsan ve Toplum Bilimleri Araştırmaları Dergisi,93.3,2845,1100,0,0.974,0.974,0.5,21356,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_231184.pdf
+231394,1,tr,14,2017,Harran Tarım ve Gıda Bilimleri Dergisi,93.9,3239,1221,0,1.0,0.984,1.0,28112,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_231394.pdf
+252929,0,tr,14,2016,Ana Dili Eğitimi Dergisi,95.4,2918,1184,0,0.812,0.972,0.0,24581,1,yazar_rec=0.0,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_252929.pdf
+257599,0,tr,7,2016,Bozok Tıp Dergisi,92.4,3651,1001,0,0.721,0.988,1.0,17615,1,baslik_sim=0.721,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_257599.pdf
+257687,1,mix,11,2017,Manas Journal of Social Studies,94.8,2465,1047,0,0.884,0.475,1.0,19080,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_257687.pdf
+264991,0,mix,11,2013,Turkish Studies (Elektronik),95.1,3076,1230,0,0.914,0.286,0.0,20124,1,ozet_sim=0.286;yazar_rec=0.0,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_264991.pdf
+266364,1,tr,8,2017,Lalahan Hayvancılık Araştırma Enstitüsü Dergisi,91.8,4778,1893,0,1.0,1.0,1.0,20701,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_266364.pdf
+268565,1,tr,6,2017,İzmir Dr. Behçet Uz Çocuk Hastanesi Dergisi,90.2,4273,1768,0,0.754,0.831,1.0,16350,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_268565.pdf
+269331,0,mix,14,2014,Turkish Studies (Elektronik),92.5,3611,1360,0,1.0,0.212,1.0,31951,1,ozet_sim=0.212,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_269331.pdf
+269811,0,tr,12,2014,Turkish Studies (Elektronik),94.6,3786,1534,0,0.974,0.182,1.0,36980,1,ozet_sim=0.182,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_269811.pdf
+279978,1,tr,15,2013,Turkish Studies (Elektronik),90.4,3194,1229,0,1.0,0.938,1.0,36730,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_279978.pdf
+290801,1,tr,10,2018,Iğdır Üniversitesi Fen Bilimleri Enstitüsü Dergisi,86.0,2585,822,0,1.0,0.969,1.0,19222,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_290801.pdf
+293239,1,tr,11,2017,Sakarya Üniversitesi Fen Bilimleri Enstitüsü Dergisi,91.3,3052,1229,0,1.0,0.997,1.0,23376,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_293239.pdf
+299802,1,tr,11,2018,SPORMETRE BEDEN EĞİTİMİ VE SPOR BİLİMLERİ DERGİSİ,91.3,3443,1532,0,0.995,0.901,1.0,21116,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_299802.pdf
+303194,1,tr,24,2018,History Studies,89.5,4303,1675,0,0.967,0.999,1.0,51615,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_303194.pdf
+306872,1,tr,5,2018,Selcuk Dental Journal,93.7,3581,920,0,1.0,0.953,1.0,10957,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_306872.pdf
+307542,0,tr,20,2018,Sakarya University Journal of Education,93.4,4351,2250,0,0.706,0.999,1.0,49805,1,baslik_sim=0.706,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_307542.pdf
+308745,1,tr,6,2018,Türkiye Tarımsal Araştırmalar Dergisi,88.9,4128,1101,0,1.0,0.976,1.0,13344,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_308745.pdf
+315592,1,tr,5,2018,Bakırköy Tıp Dergisi,90.6,4085,1117,0,1.0,0.557,1.0,8147,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_315592.pdf
+320169,1,tr,5,2018,Jinekoloji-Obstetrik ve Neonatoloji Tıp Dergisi,89.7,4639,1030,0,0.762,1.0,1.0,10418,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_320169.pdf
+321926,1,tr,19,2018,Yönetim ve Ekonomi Araştırmaları Dergisi,95.1,3078,1147,0,0.989,0.692,1.0,40989,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_321926.pdf
+332544,0,tr,6,2019,Türk Uyku Tıbbı Dergisi,84.8,4752,1287,0,1.0,0.081,1.0,17548,1,ozet_sim=0.081,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_332544.pdf
+341092,0,tr,28,2019,Çalışma ve Toplum,96.3,2962,1070,0,1.0,0.14,1.0,67529,1,ozet_sim=0.14,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_341092.pdf
+341587,1,tr,7,2019,Turkish Journal of Family Medicine and Primary Care,86.6,3414,1243,0,1.0,0.994,1.0,18100,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_341587.pdf
+344876,0,tr,12,2019,Selçuk Üniversitesi Sosyal Bilimler Enstitüsü Dergisi,95.2,4518,1789,0,1.0,0.245,1.0,33030,1,ozet_sim=0.245,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_344876.pdf
+345999,0,tr,8,2019,Sağlık Bilimleri ve Meslekleri Dergisi /Journal of Health Sciences and Professions,89.4,4411,2004,0,1.0,0.406,1.0,21169,1,ozet_sim=0.406,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_345999.pdf
+347826,0,tr,6,2019,Pamukkale Üniversitesi Mühendislik Bilimleri Dergisi,89.3,4147,1460,0,0.683,0.673,1.0,17265,1,baslik_sim=0.683,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_347826.pdf
+353289,1,tr,5,2018,Respiratory Case Reports,92.4,2913,714,0,1.0,0.994,1.0,10007,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_353289.pdf
+358933,0,mix,21,2019,Ankara Hacı Bayram Veli Üniversitesi İktisadi ve İdari Bilimler Fakültesi Dergisi (Online),95.8,2279,817,0,0.913,0.52,0.0,25069,1,yazar_rec=0.0,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_358933.pdf
+360387,0,tr,18,2020,Muhasebe ve Finansman Dergisi,94.9,3446,1351,0,0.979,0.192,1.0,29586,1,ozet_sim=0.192,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_360387.pdf
+364173,1,tr,10,2020,Europan Journal of Science and Technology,91.0,4757,1706,0,1.0,0.655,1.0,29413,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_364173.pdf
+364593,0,tr,12,2020,Mersin Üniversitesi Eğitim Fakültesi Dergisi,94.4,4544,2095,0,0.675,0.881,1.0,33491,1,baslik_sim=0.675,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_364593.pdf
+364781,0,tr,18,2018,Afyon Kocatepe Üniversitesi Sosyal Bilimler Dergisi,93.5,2811,1006,0,0.69,0.72,1.0,27942,1,baslik_sim=0.69,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_364781.pdf
+381278,0,mix,17,2020,Ankara Medical Journal,92.7,2190,854,0,0.607,0.898,1.0,23585,1,baslik_sim=0.607,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_381278.pdf
+386366,0,mix,8,2020,Flora İnfeksiyon Hastalıkları ve Klinik Mikrobiyoloji Dergisi,87.4,3401,1331,0,1.0,0.042,1.0,17531,1,ozet_sim=0.042,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_386366.pdf
+389595,1,tr,13,2019,Düzce Üniversitesi Bilim ve Teknoloji Dergisi,94.0,2634,885,0,1.0,0.989,1.0,19891,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_389595.pdf
+389676,0,tr,20,2019,Gazi Üniversitesi Mühendislik Mimarlık Fakültesi Dergisi,94.4,5329,1776,0,1.0,0.164,1.0,55731,1,ozet_sim=0.164,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_389676.pdf
+390818,0,mix,16,2020,Gazi Üniversitesi Mühendislik Mimarlık Fakültesi Dergisi,95.9,5473,2029,0,1.0,0.02,1.0,42694,1,ozet_sim=0.02,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_390818.pdf
+393862,1,tr,11,2019,Kocatepe Veterinary Journal,91.2,3633,1016,0,1.0,0.563,1.0,34170,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_393862.pdf
+394241,1,tr,16,2020,GIDA,93.2,3528,1100,0,1.0,0.854,1.0,32823,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_394241.pdf
+403885,1,tr,20,2021,OPUS Uluslararası Toplum Araştırmaları Dergisi,94.1,2487,958,0,0.981,0.995,1.0,40164,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_403885.pdf
+415075,1,tr,15,2020,EGE COĞRAFYA DERGİSİ,93.7,4922,1923,0,0.927,0.997,1.0,46450,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_415075.pdf
+417426,1,tr,19,2020,Muhasebe ve Denetime Bakış,94.1,3173,1204,0,1.0,0.931,1.0,43647,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_417426.pdf
+423706,0,tr,6,2021,Atatürk Üniversitesi Diş Hekimliği Fakültesi Dergisi,92.2,4550,1216,0,0.69,0.987,1.0,14621,1,baslik_sim=0.69,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_423706.pdf
+425670,0,mix,25,2020,Sanat Tarihi Yıllığı,91.3,3355,1097,0,0.655,0.717,1.0,45045,1,baslik_sim=0.655,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_425670.pdf
+427953,1,tr,28,2020,Istanbul Ticaret Üniversitesi Sosyal Bilimler Dergisi,94.6,3113,1352,0,0.971,0.795,1.0,49498,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_427953.pdf
+438951,1,tr,8,2021,EGE COĞRAFYA DERGİSİ,95.6,5248,2245,0,0.984,1.0,1.0,29544,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_438951.pdf
+450458,0,tr,22,2020,Türkiye Barolar Birliği Dergisi,91.0,2447,985,0,0.688,0.999,1.0,34506,1,baslik_sim=0.688,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_450458.pdf
+452150,0,tr,27,2020,Adıyaman Üniversitesi Sosyal Bilimler Enstitü Dergisi,94.5,2112,927,0,0.889,0.018,1.0,46156,1,ozet_sim=0.018,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_452150.pdf
+453375,1,tr,11,2020,Sosyal Bilimler Araştırmaları Dergisi,93.7,4747,2012,0,0.918,0.804,1.0,39970,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_453375.pdf
+453691,1,tr,14,2020,Sosyal Bilimler Araştırmaları Dergisi,88.1,5358,2192,0,1.0,1.0,1.0,31419,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_453691.pdf
+465296,0,tr,11,2020,Pamukkale Tıp Dergisi,89.7,3284,1290,0,0.667,0.691,1.0,20591,1,baslik_sim=0.667,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_465296.pdf
+466615,1,tr,8,2021,Europan Journal of Science and Technology,93.2,4738,1981,0,0.995,0.494,1.0,25802,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_466615.pdf
+483351,0,tr,25,2021,Erciyes İletişim Dergisi,94.3,3237,1116,0,0.958,0.268,0.5,80192,1,ozet_sim=0.268,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_483351.pdf
+493278,0,tr,20,2021,Journal of Yasar University,92.9,2890,969,0,0.696,0.996,0.0,39492,1,baslik_sim=0.696;yazar_rec=0.0,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_493278.pdf
+504411,1,tr,8,2022,Doğal Afetler ve Çevre Dergisi,93.3,2974,1162,0,1.0,1.0,1.0,15086,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_504411.pdf
+507688,1,tr,24,2021,Afyon Kocatepe Üniversitesi Fen ve Mühendislik Bilimleri Dergisi,89.4,3667,1288,0,1.0,0.948,1.0,41531,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_507688.pdf
+511181,0,tr,13,2021,Türkiye Klinikleri Hemşirelik Bilimleri Dergisi,90.2,4093,1621,0,1.0,0.023,1.0,30393,1,ozet_sim=0.023,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_511181.pdf
+527357,1,tr,16,2021,Maliye Dergisi,94.5,2925,1108,0,1.0,0.998,1.0,28820,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_527357.pdf
+1095430,0,tr,19,2022,Adalet Dergisi ,95.4,3061,1108,0,0.634,0.007,1.0,47120,1,baslik_sim=0.634;ozet_sim=0.007,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1095430.pdf
+1109440,1,tr,12,2022,Manas Journal of Social Studies,95.5,5043,2381,0,0.958,0.966,1.0,36253,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1109440.pdf
+1107565,0,tr,11,2022,Celal Bayar Üniversitesi Sosyal Bilimler Dergisi,93.5,3465,1070,0,0.96,0.039,1.0,28710,1,ozet_sim=0.039,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1107565.pdf
+1108102,0,tr,26,2022,EĞİTİM VE İNSANİ BİLİMLER DERGİSİ: TEORİ VE UYGULAMA,93.1,2455,1167,0,0.573,0.0,0.0,47372,1,baslik_sim=0.573;ozet-yok;yazar_rec=0.0,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1108102.pdf
+1112956,1,tr,20,2019,Cumhuriyet Üniversitesi İktisadi ve İdari Bilimler Dergisi,95.0,2637,1085,0,1.0,0.985,1.0,35524,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1112956.pdf
+1114466,0,tr,13,2021,Gümüşhane Üniversitesi Sosyal Bilimler Dergisi,90.4,4234,1882,0,0.647,0.998,1.0,33425,1,baslik_sim=0.647,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1114466.pdf
+1114940,1,tr,11,2022,Atatürk Üniversitesi Ziraat Fakültesi Dergisi,92.8,6534,2304,0,0.986,0.908,1.0,43973,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1114940.pdf
+1115444,1,tr,16,2022,Türkiye Sosyal Araştırmalar Dergisi,91.3,4014,1553,0,1.0,0.97,1.0,49046,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1115444.pdf
+1117181,1,tr,7,2021,Kahramanmaraş Sütçü İmam Üniversitesi Tarım ve Doğa Dergisi,92.8,4908,1734,0,0.988,0.998,0.75,22969,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1117181.pdf
+1116667,0,mix,25,2021,İleti-ş-im,94.9,2722,902,0,0.878,0.014,1.0,64432,1,ozet-yok,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1116667.pdf
+1117292,1,mix,9,2022,Mehmet Akif Ersoy Üniversitesi Veteriner Fakültesi Dergisi,89.4,3194,939,0,1.0,0.62,1.0,23057,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1117292.pdf
+1120783,0,tr,18,2022,Muhasebe ve Denetime Bakış,93.7,2803,1366,0,1.0,0.997,0.0,39488,1,yazar_rec=0.0,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1120783.pdf
+1123004,1,tr,10,2022,Iğdır Üniversitesi Fen Bilimleri Enstitüsü Dergisi,92.6,3168,1054,0,1.0,0.629,1.0,18319,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1123004.pdf
+1123655,0,tr,17,2022,Akdeniz İnsani Bilimler Dergisi,94.0,4130,1770,0,0.705,0.997,1.0,43428,1,baslik_sim=0.705,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1123655.pdf
+1128944,1,tr,9,2021,Mühendislik Bilimleri ve Tasarım Dergisi,93.0,3366,1439,0,1.0,1.0,1.0,19887,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1128944.pdf
+1128043,1,tr,15,2021,El-Cezerî Journal of Science and Engineering,87.7,2899,1079,0,1.0,1.0,1.0,25004,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1128043.pdf
+1130162,0,tr,5,2022,MN Oftalmoloji,88.9,5163,1478,0,0.507,0.103,1.0,15717,1,baslik_sim=0.507;ozet_sim=0.103,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1130162.pdf
+1131780,1,tr,21,2018,Medya ve Din Araştırmaları Dergisi (Online)    ,95.5,3969,1743,0,0.975,0.864,1.0,61179,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1131780.pdf
+1134985,0,tr,18,2019,Dil Eğitimi ve Araştırmaları Dergisi,93.2,3311,1504,0,0.69,1.0,1.0,42959,1,baslik_sim=0.69,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1134985.pdf
+1135228,0,tr,25,2022,Çankırı Karatekin Üniversitesi İktisadi ve İdari Bilimler Fakültesi Dergisi,94.4,3166,1274,0,0.969,0.359,1.0,39126,1,ozet_sim=0.359,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1135228.pdf
+1136994,1,tr,22,2022,Uluslararası Türk Eğitim Bilimleri Dergisi,93.3,3194,1127,0,0.979,0.999,1.0,45046,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1136994.pdf
+1137067,1,tr,6,2022,Anestezi Dergisi,82.4,4662,1327,0,1.0,1.0,1.0,17947,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1137067.pdf
+1140177,0,tr,9,2022,Gümüşhane Üniversitesi Sağlık Bilimleri Dergisi,85.8,3529,1439,0,0.701,0.191,1.0,19710,1,baslik_sim=0.701;ozet_sim=0.191,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1140177.pdf
+1139620,0,tr,13,2021,Gümüşhane Üniversitesi Fen Bilimleri Dergisi,91.6,3350,1016,0,0.663,0.957,0.5,27080,1,baslik_sim=0.663,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1139620.pdf
+1140394,1,mix,18,2021,İstanbul Gelişim Üniversitesi Sağlık Bilimleri Dergisi,94.5,2402,1001,0,0.791,0.742,1.0,26190,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1140394.pdf
+1141709,0,tr,5,2022,Acta Medica Nicomedia,89.0,5339,1781,0,0.672,0.995,1.0,7240,1,baslik_sim=0.672,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1141709.pdf
+1142096,0,tr,17,2022,Nevşehir Hacı Bektaş Veli Üniversitesi SBE Dergisi,93.7,3912,1759,0,0.606,0.0,1.0,39858,1,baslik_sim=0.606;ozet-yok,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1142096.pdf
+1143435,1,tr,8,2022,Psikiyatride Güncel Yaklaşımlar,95.5,6001,2607,0,1.0,1.0,1.0,33791,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1143435.pdf
+1144732,0,tr,12,2022,Üçüncü Sektör Sosyal Ekonomi,95.0,3737,1497,0,1.0,0.015,1.0,30308,1,ozet_sim=0.015,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1144732.pdf
+1144770,1,tr,13,2022,Uluslararası Türkçe Edebiyat Kültür Eğitim (TEKE) Dergisi,91.6,3795,1341,0,0.978,0.996,1.0,31260,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1144770.pdf
+1145207,1,tr,11,2022,Akademik Gıda,91.6,4617,1546,0,1.0,0.999,1.0,32318,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1145207.pdf
+1146626,0,tr,15,2022,TBV Bilgisayar Bilimleri ve Mühendisliği Dergisi,93.2,4717,1828,0,0.667,0.997,1.0,58958,1,baslik_sim=0.667,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1146626.pdf
+1146853,1,mix,14,2022,Journal of universal history studies (Online),90.6,2977,969,0,0.949,1.0,1.0,18166,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1146853.pdf
+1150669,1,tr,28,2022,Anadolu Üniversitesi Sosyal Bilimler Dergisi,95.3,2933,1051,0,1.0,1.0,1.0,70981,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1150669.pdf
+1155729,0,tr,8,2022,Dokuz Eylül Üniversitesi Tıp Fakültesi Dergisi,87.9,3577,1326,0,0.704,0.854,1.0,19040,1,baslik_sim=0.704,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1155729.pdf
+1157910,1,tr,8,2023,Bahçe,85.5,4805,1991,0,1.0,1.0,1.0,17974,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1157910.pdf
+1159242,1,tr,6,2022,Kahramanmaraş Sütçü İmam Üniversitesi Tarım ve Doğa Dergisi,82.9,4850,1028,0,1.0,1.0,1.0,11848,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1159242.pdf
+1159558,0,mix,8,2023,Gazi Üniversitesi Mühendislik Mimarlık Fakültesi Dergisi,94.1,4520,1465,0,1.0,0.044,1.0,23001,1,ozet_sim=0.044,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1159558.pdf
+1159586,0,mix,14,2023,Gazi Üniversitesi Mühendislik Mimarlık Fakültesi Dergisi,95.0,5143,1689,0,1.0,0.019,1.0,39246,1,ozet_sim=0.019,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1159586.pdf
+1159702,1,tr,22,2023,Uluslararası Türkçe Edebiyat Kültür Eğitim (TEKE) Dergisi,90.3,3418,1324,0,1.0,1.0,1.0,48999,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1159702.pdf
+1161355,1,tr,20,2023,Ankara Üniversitesi SBF Dergisi,93.1,3037,1047,0,0.976,0.636,1.0,47722,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1161355.pdf
+1165232,0,tr,5,2023,Türk Kütüphaneciliği,95.1,2962,1202,0,1.0,0.009,1.0,11463,1,ozet_sim=0.009,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1165232.pdf
+1162535,1,tr,19,2023,"The Turkish Online Journal of Design, Art and Communication",93.5,3737,1290,0,1.0,0.999,1.0,30947,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1162535.pdf
+1166292,0,tr,12,2023,Türkiye Diyabet ve Obezite Dergisi ,93.7,4118,1207,0,1.0,0.321,1.0,32339,1,ozet_sim=0.321,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1166292.pdf
+1169363,0,mix,6,2021,Neuropsychiatric investigation (Online),88.9,5018,1619,0,0.664,0.828,1.0,18392,1,baslik_sim=0.664,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1169363.pdf
+1167774,1,tr,17,2023,Yüzüncü Yıl Üniversitesi Fen Bilimleri Enstitüsü Dergisi,89.8,2952,1006,0,1.0,0.996,1.0,40731,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1167774.pdf
+1169797,0,tr,24,2023,Uludağ Üniversitesi Eğitim Fakültesi Dergisi,94.6,3693,1264,0,0.695,0.996,1.0,59685,1,baslik_sim=0.695,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1169797.pdf
+1170380,1,tr,26,2022,Bilig / Türk Dünyası Sosyal Bilimler Dergisi,93.7,2148,955,0,1.0,0.629,1.0,46582,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1170380.pdf
+1172024,0,tr,16,2022,İşletme Araştırmaları Dergisi,94.6,4918,2169,0,0.701,0.978,1.0,42532,1,baslik_sim=0.701,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1172024.pdf
+1172983,1,tr,17,2023,RumeliDE Dil ve Edebiyat Araştırmaları Dergisi,93.5,4054,1422,0,0.964,0.895,1.0,25064,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1172983.pdf
+1175124,1,tr,5,2021,Europan Journal of Science and Technology,91.6,3545,1186,0,1.0,0.999,1.0,10150,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1175124.pdf
+1175849,0,tr,10,2022,Educational academic research (Online),93.9,5269,2228,0,1.0,0.373,1.0,43519,1,ozet_sim=0.373,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1175849.pdf
+1177624,1,tr,26,2023,Yaşadıkça Eğitim Dergisi,94.1,4664,1867,0,1.0,0.575,1.0,57307,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1177624.pdf
+1180434,0,tr,7,2023,STED/Sürekli Tıp Eğitimi Dergisi,89.7,3940,1696,0,0.691,0.687,1.0,17787,1,baslik_sim=0.691,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1180434.pdf
+1185874,0,tr,11,2023,"Journal of gastronomy, hospitality and travel (Online)",89.4,4679,2070,0,0.667,0.872,0.5,26807,1,baslik_sim=0.667,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1185874.pdf
+1189348,0,tr,7,2021,Süleyman Demirel Üniversitesi Sağlık Bilimleri Dergisi,89.9,4445,1217,0,0.68,0.998,1.0,19424,1,baslik_sim=0.68,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1189348.pdf
+1192516,1,tr,19,2020,Karamanoğlu Mehmetbey Üniversitesi Sosyal ve Ekonomik Araştırmalar Dergisi,92.8,3916,1599,0,1.0,1.0,1.0,31641,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1192516.pdf
+1194295,1,tr,5,2021,Türkiye Çocuk Hastalıkları Dergisi,89.5,4756,1149,0,1.0,0.949,1.0,14538,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1194295.pdf
+1195190,0,tr,12,2022,Kahramanmaraş Sütçü İmam Üniversitesi Sosyal Bilimler Dergisi,94.3,4137,1807,0,0.693,0.993,0.0,34381,1,baslik_sim=0.693;yazar_rec=0.0,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1195190.pdf
+1195919,0,tr,10,2023,Eskişehir Osmangazi Üniversitesi mühendislik ve mimarlık fakültesi dergisi (online),89.8,4265,1594,0,1.0,0.018,1.0,24044,1,ozet_sim=0.018,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1195919.pdf
+1196673,1,tr,24,2023,Milli Eğitim,92.8,2796,1022,0,0.923,0.999,1.0,38858,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1196673.pdf
+1197430,1,tr,16,2023,Hacettepe Sağlık İdaresi Dergisi,91.9,3328,1552,0,1.0,1.0,1.0,26937,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1197430.pdf
+1197880,0,tr,12,2023,Gazi Üniversitesi Mühendislik Mimarlık Fakültesi Dergisi,94.7,5764,1994,0,1.0,0.117,1.0,33049,1,ozet_sim=0.117,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1197880.pdf
+1198657,1,tr,24,2023,Anadolu Üniversitesi Sosyal Bilimler Dergisi,91.7,3462,1376,0,0.814,1.0,1.0,57077,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1198657.pdf
+1199417,0,tr,13,2023,Uluslararası Türkçe Edebiyat Kültür Eğitim (TEKE) Dergisi,85.8,3206,1091,0,0.789,0.016,1.0,25504,1,ozet_sim=0.016,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1199417.pdf
+1200521,0,tr,16,2022,Ege Üniversitesi Ziraat Fakültesi Dergisi,88.0,3766,1584,0,0.686,0.155,1.0,36586,1,baslik_sim=0.686;ozet_sim=0.155,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1200521.pdf
+1200522,0,tr,12,2022,Ege Üniversitesi Ziraat Fakültesi Dergisi,92.2,4230,1398,0,0.731,0.393,1.0,29259,1,baslik_sim=0.731;ozet_sim=0.393,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1200522.pdf
+1201259,0,tr,13,2023,Nevşehir Hacı Bektaş Veli Üniversitesi SBE Dergisi,91.9,4319,1946,0,0.656,0.519,0.0,25673,1,baslik_sim=0.656;yazar_rec=0.0,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1201259.pdf
+1201875,0,mix,10,2023,Gümüşhane Üniversitesi Fen Bilimleri Dergisi,93.4,2568,902,0,0.669,0.999,0.75,16726,1,baslik_sim=0.669,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1201875.pdf
+1201567,0,tr,13,2023,Ege Üniversitesi Ziraat Fakültesi Dergisi,88.1,3197,990,0,0.674,0.998,1.0,24340,1,baslik_sim=0.674,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1201567.pdf
+1205497,0,tr,11,2023,Çukurova Üniversitesi Sosyal Bilimler Enstitüsü Dergisi,91.8,4231,1983,0,0.85,0.985,0.0,23978,1,yazar_rec=0.0,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1205497.pdf
+1206129,0,tr,10,2023,Korkut Ata Türkiyat Araştırmaları Dergisi (Online),93.8,3006,1140,0,0.4,0.021,0.0,14703,1,baslik_sim=0.4;ozet_sim=0.021;yazar_rec=0.0,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1206129.pdf
+1208360,0,tr,10,2021,Bandırma Onyedi Eylül Üniversitesi Sağlık Bilimleri ve Araştırmaları dergisi (Online),92.4,4235,1764,0,0.677,0.963,1.0,30275,1,baslik_sim=0.677,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1208360.pdf
+1208431,0,tr,8,2022,Bandırma Onyedi Eylül Üniversitesi Sağlık Bilimleri ve Araştırmaları dergisi (Online),90.9,4382,1664,0,0.72,0.985,1.0,20609,1,baslik_sim=0.72,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1208431.pdf
+1208577,1,tr,21,2023,Pamukkale Üniversitesi Sosyal Bilimler Enstitüsü Dergisi,94.1,4956,2296,0,1.0,0.996,1.0,59061,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1208577.pdf
+1211690,0,tr,14,2023,Ordu Üniversitesi Sosyal Bilimler Enstitüsü Sosyal Bilimler Araştırmaları Dergisi,92.5,2502,906,0,0.667,0.539,1.0,22842,1,baslik_sim=0.667,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1211690.pdf
+1211768,0,tr,8,2023,Sağlık Bilimleri Üniversitesi Hemşirelik Dergisi (Online),94.9,6329,2421,0,0.667,0.035,1.0,33474,1,baslik_sim=0.667;ozet_sim=0.035,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1211768.pdf
+1215215,1,mix,11,2023,Folklor akademi dergisi (Online),95.4,3230,1410,0,1.0,0.589,1.0,17661,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1215215.pdf
+1215416,0,tr,20,2023,Sosyal Politika Çalışmaları Dergisi,92.4,2399,980,0,1.0,0.999,0.0,29977,1,yazar_rec=0.0,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1215416.pdf
+1216089,1,tr,13,2024,"The Turkish Online Journal of Design, Art and Communication",94.6,4542,1728,0,1.0,0.999,1.0,41705,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1216089.pdf
+1219932,0,tr,14,2023,Yeni Medya (Online),95.0,4600,2013,0,0.671,0.906,1.0,44099,1,baslik_sim=0.671,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1219932.pdf
+1222110,0,tr,16,2023,Karamanoğlu Mehmetbey Üniversitesi Sosyal ve Ekonomik Araştırmalar Dergisi,95.9,4467,2232,0,0.97,0.018,1.0,45769,1,ozet_sim=0.018,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1222110.pdf
+1233157,0,mix,18,2024,Akademik Dil ve Edebiyat Dergisi ,91.5,2937,1147,0,0.624,0.014,0.5,43304,1,baslik_sim=0.624;ozet_sim=0.014,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1233157.pdf
+1233283,1,tr,11,2024,Bingöl Üniversitesi Sosyal Bilimler Enstitüsü Dergisi,93.8,4223,1706,0,1.0,0.943,1.0,29281,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1233283.pdf
+1238745,0,tr,7,2024,Bahçe,89.3,5048,2037,0,0.793,0.409,1.0,23755,1,ozet_sim=0.409,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1238745.pdf
+1239588,1,tr,8,2024,Türkiye Klinikleri Spor Bilimleri Dergisi,89.3,3783,1377,0,1.0,0.896,1.0,19823,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1239588.pdf
+1239833,1,tr,8,2023,ISPEC journal of agricultural sciences (Online),87.2,3260,1502,0,1.0,0.982,1.0,15295,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1239833.pdf
+1242273,0,mix,17,2023,İslami Araştırmalar,95.5,4268,1297,0,0.702,0.997,1.0,59232,1,baslik_sim=0.702,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1242273.pdf
+1242804,0,tr,5,2023,7tepe Klinik,94.5,3041,976,0,0.674,0.95,1.0,12074,1,baslik_sim=0.674,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1242804.pdf
+1244326,0,tr,27,2023,İslami İlimler Dergisi,94.6,2728,1059,0,0.566,0.019,1.0,63192,1,baslik_sim=0.566;ozet_sim=0.019,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1244326.pdf
+1244682,0,tr,22,2024,Karadeniz Araştırmaları,94.1,4032,1601,0,0.933,0.414,0.0,56631,1,ozet_sim=0.414;yazar_rec=0.0,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1244682.pdf
+1247839,1,tr,21,2024,Sanat & Tasarım Dergisi,92.4,2769,1123,0,1.0,0.997,1.0,34403,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1247839.pdf
+1252585,0,tr,18,2023,NİŞANTAŞI ÜNİVERSİTESİ SOSYAL BİLİMLER DERGİSİ,94.0,4673,1884,0,1.0,0.073,1.0,48505,1,ozet_sim=0.073,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1252585.pdf
+1256434,1,tr,10,2024,Türk Tarım - Gıda Bilim ve Teknoloji dergisi,89.8,5568,1890,0,1.0,0.999,1.0,36752,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1256434.pdf
+1256777,1,tr,9,2023,Düzce Üniversitesi Bilim ve Teknoloji Dergisi,95.7,2532,998,0,1.0,1.0,1.0,13388,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1256777.pdf
+1256783,1,tr,14,2023,Düzce Üniversitesi Bilim ve Teknoloji Dergisi,90.6,2907,1083,0,1.0,0.992,1.0,20798,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1256783.pdf
+1257462,1,tr,15,2023,Bilişsel Davranışçı Psikoterapi ve Araştırmalar Dergisi,94.5,4569,1991,0,1.0,0.998,1.0,54003,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1257462.pdf
+1257613,0,tr,18,2024,Gazi Üniversitesi Mühendislik Mimarlık Fakültesi Dergisi,95.7,5879,2461,0,1.0,0.019,1.0,42313,1,ozet_sim=0.019,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1257613.pdf
+1262332,0,tr,17,2024,Türk Eğitim Bilimleri Dergisi,94.3,3210,1447,0,0.67,0.816,1.0,30748,1,baslik_sim=0.67,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1262332.pdf
+1270501,0,tr,12,2023,Düzce Üniversitesi Orman Fakültesi Ormancılık Dergisi,92.0,2299,809,0,0.67,0.799,1.0,16946,1,baslik_sim=0.67,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1270501.pdf
+1269155,1,mix,11,2023,Mühendislik Bilimleri ve Tasarım Dergisi,91.6,4278,1287,0,1.0,0.97,1.0,31914,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1269155.pdf
+1270911,0,tr,26,2022,Mehmet Akif Ersoy Üniversitesi Eğitim Fakültesi Dergisi,93.3,2783,1060,0,0.672,0.926,1.0,40188,1,baslik_sim=0.672,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1270911.pdf
+1273336,1,tr,8,2024,Turkish Journal of Forestry,88.6,4161,1776,0,1.0,0.743,1.0,21247,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1273336.pdf
+1276370,0,tr,22,2023,Mehmet Akif Ersoy Üniversitesi Eğitim Fakültesi Dergisi,94.5,2940,1380,0,0.66,0.954,1.0,37274,1,baslik_sim=0.66,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1276370.pdf
+1276506,0,tr,8,2022,Gümüşhane Üniversitesi Sağlık Bilimleri Dergisi,93.5,4062,1541,0,0.622,0.531,1.0,14154,1,baslik_sim=0.622,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1276506.pdf
+1273863,1,tr,17,2024,Fırat Üniversitesi Mühendislik Bilimleri Dergisi,97.5,5998,2337,0,1.0,0.999,1.0,60850,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1273863.pdf
+1278218,0,tr,10,2024,Bingöl Üniversitesi Sosyal Bilimler Enstitüsü Dergisi,93.1,3597,1451,0,1.0,0.403,1.0,29840,1,ozet_sim=0.403,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1278218.pdf
+1279847,0,tr,17,2024,İşletme Araştırmaları Dergisi,91.2,4608,1778,0,0.712,0.387,1.0,42901,1,baslik_sim=0.712;ozet_sim=0.387,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1279847.pdf
+1283025,0,tr,18,2024,"YEDİ: SANAT, TASARIM VE BİLİM DERGİSİ",95.1,5124,1940,0,0.723,0.994,1.0,60720,1,baslik_sim=0.723,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1283025.pdf
+1286300,1,tr,19,2024,Uluslararası Türkçe Edebiyat Kültür Eğitim (TEKE) Dergisi,92.2,3784,1665,0,1.0,0.999,1.0,48017,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1286300.pdf
+1288995,0,tr,19,2024,Motif Akademi Halkbilimi Dergisi,96.2,3207,1468,0,0.66,0.094,1.0,36746,1,baslik_sim=0.66;ozet_sim=0.094,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1288995.pdf
+1289554,0,tr,5,2024,Bilgisayar bilimleri ve mühendisliği dergisi,89.1,4205,1293,0,0.703,1.0,1.0,12065,1,baslik_sim=0.703,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1289554.pdf
+1289690,1,tr,22,2024,Çankırı Karatekin Üniversitesi İktisadi ve İdari Bilimler Fakültesi Dergisi,93.7,3257,1188,0,1.0,0.809,1.0,43647,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1289690.pdf
+1290057,0,tr,16,2024,Arşiv Kaynak Tarama Dergisi,96.7,4561,1687,0,0.689,0.999,1.0,54361,1,baslik_sim=0.689,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1290057.pdf
+1290828,0,tr,15,2024,Celal Bayar Üniversitesi Sosyal Bilimler Dergisi,96.5,3405,1400,0,1.0,0.029,1.0,33696,1,ozet_sim=0.029,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1290828.pdf
+1292132,0,mix,17,2024,Karadeniz Sosyal Bilimler Dergisi,94.3,3248,1237,0,0.74,0.991,0.0,35766,1,baslik_sim=0.74;yazar_rec=0.0,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1292132.pdf
+1301409,1,tr,8,2024,Toplum ve Hekim,95.3,4934,2304,0,1.0,0.998,1.0,31633,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1301409.pdf
+1301468,0,tr,9,2024,Yükseköğretim ve Bilim Dergisi,93.7,4188,1660,0,0.683,1.0,1.0,26937,1,baslik_sim=0.683,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1301468.pdf
+1302309,0,tr,26,2025,Dicle Üniversitesi Sosyal Bilimler Enstitüsü Dergisi,92.5,3061,1203,0,0.686,0.524,1.0,48464,1,baslik_sim=0.686,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1302309.pdf
+1302382,0,mix,20,2025,Gazi Üniversitesi Mühendislik Mimarlık Fakültesi Dergisi,93.1,4629,1450,0,1.0,0.035,1.0,43070,1,ozet_sim=0.035,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1302382.pdf
+1303060,0,tr,15,2025,Anadolu Tarım Bilimleri Dergisi,90.3,2213,700,0,0.671,0.999,1.0,12344,1,baslik_sim=0.671,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1303060.pdf
+1305097,0,tr,19,2025,Motif Akademi Halkbilimi Dergisi,95.2,3255,1244,0,0.643,1.0,0.0,42907,1,baslik_sim=0.643;yazar_rec=0.0,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1305097.pdf
+1305670,0,tr,16,2025,Yüzüncü Yıl Üniversitesi Sosyal Bilimler Enstitüsü Dergisi,95.2,4775,1716,0,1.0,0.024,1.0,48257,1,ozet_sim=0.024,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1305670.pdf
+1306408,0,tr,18,2025,Celal Bayar Üniversitesi Sosyal Bilimler Dergisi,94.8,3218,1166,0,0.922,0.248,1.0,45043,1,ozet_sim=0.248,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1306408.pdf
+1307280,0,tr,20,2025,Dil ve Edebiyat Araştırmaları,92.4,3983,1562,0,1.0,0.083,1.0,49588,1,ozet_sim=0.083,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1307280.pdf
+1310974,1,tr,20,2025,GENÇLİK ARAŞTIRMALARI DERGİSİ,92.9,3525,1244,0,0.981,0.999,0.5,44318,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1310974.pdf
+1311488,0,tr,19,2025,Ana Dili Eğitimi Dergisi,94.5,3885,1793,0,0.589,0.363,1.0,51541,1,baslik_sim=0.589;ozet_sim=0.363,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1311488.pdf
+1311850,1,tr,13,2025,Bingöl Üniversitesi Sosyal Bilimler Enstitüsü Dergisi,95.6,4050,1572,0,1.0,0.998,1.0,37961,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1311850.pdf
+1316076,0,tr,6,2025,Turkish Journal of Family Medicine and Primary Care,95.3,3962,1390,0,0.731,0.997,1.0,16238,1,baslik_sim=0.731,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1316076.pdf
+1322991,1,tr,20,2025,Sosyal Politika Çalışmaları Dergisi,94.4,2520,1008,0,1.0,0.998,1.0,32404,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1322991.pdf
+1324977,0,tr,12,2025,İnsan ve İnsan,95.3,3721,1416,0,0.752,0.043,0.0,34682,1,ozet_sim=0.043;yazar_rec=0.0,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1324977.pdf
+1325278,0,mix,20,2025,Bingöl Üniversitesi İlahiyat Fakültesi Dergisi,90.7,3503,1209,0,0.548,0.017,0.0,38060,1,baslik_sim=0.548;ozet_sim=0.017;yazar_rec=0.0,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1325278.pdf
+1326470,1,tr,22,2025,İnönü Üniversitesi İletişim Fakültesi Elektronik Dergisi,94.0,4258,1599,0,1.0,0.573,1.0,83724,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1326470.pdf
+1327551,0,mix,26,2025,Sanat Tarihi Dergisi,95.1,3276,1167,0,0.67,0.825,1.0,62244,1,baslik_sim=0.67,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1327551.pdf
+1327882,0,mix,21,2025,İnsan ve Toplum Bilimleri Araştırmaları Dergisi,93.8,3906,1215,0,0.597,1.0,1.0,53382,1,baslik_sim=0.597,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1327882.pdf
+1328441,0,tr,17,2025,Buca Eğitim Fakültesi Dergisi,94.5,4271,1502,0,0.696,1.0,1.0,49811,1,baslik_sim=0.696,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1328441.pdf
+1329754,1,tr,12,2025,Sağlık ve Toplum,90.3,4043,1640,0,0.856,0.891,1.0,29069,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1329754.pdf
+1330135,0,tr,26,2024,Muhasebe ve Finansman Dergisi,94.7,3812,1218,0,1.0,0.004,1.0,59822,1,ozet_sim=0.004,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1330135.pdf
+1330695,1,tr,22,2025,KBB-Forum,92.6,4922,2365,0,1.0,0.711,1.0,35552,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1330695.pdf
+1332099,1,tr,11,2025,Afyon Kocatepe Üniversitesi Fen ve Mühendislik Bilimleri Dergisi,92.4,4336,1797,0,0.756,0.864,1.0,32643,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1332099.pdf
+1332243,1,tr,13,2025,Balıkesir Üniversitesi Fen Bilimleri Enstitüsü Dergisi,95.1,2555,930,0,1.0,0.996,1.0,27349,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1332243.pdf
+1334755,0,tr,13,2025,Ege Üniversitesi Hemşirelik Fakültesi Dergisi,91.5,4536,1983,0,0.985,0.318,1.0,40988,1,ozet_sim=0.318,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1334755.pdf
+1336967,1,tr,7,2025,Journal of research in veterinary medicine (Online),91.5,4886,1525,0,1.0,0.995,1.0,17573,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1336967.pdf
+1337947,0,tr,5,2022,Türk Nöroşirürji Dergisi,92.5,4990,1668,0,0.68,1.0,1.0,16605,1,baslik_sim=0.68,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1337947.pdf
+1344548,1,tr,27,2025,Liberal Düşünce,95.0,2976,1180,0,1.0,0.998,1.0,63918,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1344548.pdf
+1345262,0,tr,22,2025,Journal of Tourism and Gastronomy Studies,95.4,3808,1623,0,0.665,0.999,1.0,36296,1,baslik_sim=0.665,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1345262.pdf
+1345953,0,tr,12,2025,Milli Folklor Dergisi,95.2,3989,1764,0,0.684,0.345,1.0,35213,1,baslik_sim=0.684;ozet_sim=0.345,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1345953.pdf
+1348661,0,mix,10,2024,Türkiye Klinikleri Adli Tıp ve Adli Bilimler Dergisi,87.6,4158,1384,0,0.733,0.5,1.0,25536,1,baslik_sim=0.733,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1348661.pdf
+1348882,1,tr,25,2025,Aydın tömer dil dergisi,93.9,2500,966,0,1.0,0.574,1.0,36458,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1348882.pdf
+1351338,0,tr,7,2024,Kahramanmaraş Sütçü İmam Üniversitesi Sosyal Bilimler Dergisi,96.3,4203,1710,0,0.683,0.999,1.0,18124,1,baslik_sim=0.683,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1351338.pdf
+1353329,1,tr,22,2025,Sanat & Tasarım Dergisi,93.2,2729,1022,0,1.0,0.471,1.0,42979,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1353329.pdf
+1354933,0,tr,14,2025,İşletme Araştırmaları Dergisi,92.4,4366,1897,0,0.659,0.809,0.33,31017,1,baslik_sim=0.659;yazar_rec=0.33,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1354933.pdf
+1357777,1,tr,20,2022,Söylem Filoloji Dergisi,92.4,3616,1632,0,1.0,1.0,1.0,46827,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1357777.pdf
+1357863,0,tr,19,2025,Çukurova Üniversitesi Sosyal Bilimler Enstitüsü Dergisi,95.7,3850,1650,0,0.684,0.0,1.0,65741,1,baslik_sim=0.684;ozet-yok,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1357863.pdf
+1365282,0,tr,11,2025,Afyon Kocatepe Üniversitesi Fen ve Mühendislik Bilimleri Dergisi,94.7,4896,1696,0,0.663,0.997,1.0,38746,1,baslik_sim=0.663,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1365282.pdf
+1367949,0,tr,17,2025,SPORMETRE BEDEN EĞİTİMİ VE SPOR BİLİMLERİ DERGİSİ,92.8,3695,1545,0,0.48,0.885,1.0,34826,1,baslik_sim=0.48,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1367949.pdf
+1369851,0,tr,24,2025,SineFilozofi,90.9,4108,1283,0,0.977,0.167,1.0,47033,1,ozet_sim=0.167,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1369851.pdf
+1370598,0,tr,19,2025,Mustafa Kemal Üniversitesi Tarım Bilimleri Dergisi,81.6,3894,1534,0,0.686,0.922,1.0,59955,1,baslik_sim=0.686,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1370598.pdf
+1371086,0,tr,11,2025,Üniversite Araştırmaları Dergisi (Online),93.2,4708,1454,0,1.0,0.077,1.0,30711,1,ozet_sim=0.077,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1371086.pdf
+1372345,0,tr,18,2025,Nevşehir Hacı Bektaş Veli Üniversitesi SBE Dergisi,91.8,4920,1900,0,0.608,0.0,1.0,51110,1,baslik_sim=0.608;ozet-yok,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1372345.pdf
+1377057,1,tr,16,2025,Celal Bayar Üniversitesi Sosyal Bilimler Dergisi,94.2,3210,1240,0,0.99,0.467,1.0,34766,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1377057.pdf
+1377596,1,tr,15,2025,Journal of Innovations in Civil Engineering and Technology,93.9,2759,1051,0,1.0,0.998,1.0,22732,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1377596.pdf
+1379382,0,tr,24,2025,Buca Eğitim Fakültesi Dergisi,94.0,4290,1765,0,0.673,1.0,1.0,61227,1,baslik_sim=0.673,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1379382.pdf
+1383977,0,mix,11,2025,Selçuklu medeniyeti araştırmaları dergisi (Online),93.4,4157,1331,0,0.922,0.238,0.0,21557,1,ozet_sim=0.238;yazar_rec=0.0,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1383977.pdf
+1381719,1,tr,25,2026,Optimum Ekonomi ve Yönetim Bilimleri Dergisi,94.5,3128,1323,0,1.0,0.998,1.0,52903,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1381719.pdf
+1384828,0,tr,5,2026,Sağlık bilimlerinde değer (Online),84.7,4326,1027,0,0.684,0.031,1.0,11701,1,baslik_sim=0.684;ozet_sim=0.031,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1384828.pdf
+1384870,0,tr,13,2025,Türkiye Sosyal Araştırmalar Dergisi,94.3,3698,1445,0,1.0,0.375,1.0,47257,1,ozet_sim=0.375,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1384870.pdf
+1392150,0,tr,22,2026,Muhasebe ve Denetime Bakış,94.5,3334,1138,0,1.0,0.933,0.0,39274,1,yazar_rec=0.0,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1392150.pdf
+1392521,0,tr,17,2024,Colloquium Anatolicum,91.9,2473,1015,0,0.667,1.0,1.0,29528,1,baslik_sim=0.667,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1392521.pdf
+1393887,0,tr,8,2026,Black Sea Journal of Engineering and Science,93.9,5281,2003,0,1.0,0.03,1.0,31747,1,ozet_sim=0.03,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1393887.pdf
+1392690,1,tr,25,2026,İzmir iktisat dergisi,93.6,4191,1340,0,0.988,0.998,1.0,54891,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1392690.pdf
+1394295,1,tr,12,2018,Atatürk Üniversitesi Sosyal Bilimler Enstitüsü Dergisi,93.2,3006,1331,0,0.965,0.997,1.0,23558,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1394295.pdf
+1394340,0,tr,14,2025,Muhasebe ve Denetime Bakış,91.7,3409,1216,0,0.981,0.997,0.0,25057,1,yazar_rec=0.0,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1394340.pdf
+1395563,0,tr,19,2026,Journal of Yasar University,91.2,2711,922,0,0.722,0.775,0.0,34482,1,baslik_sim=0.722;yazar_rec=0.0,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1395563.pdf
+1396475,1,tr,11,2026,Hayef:journal of education (Online),94.9,7109,2963,0,1.0,1.0,1.0,57087,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1396475.pdf
+1398297,0,tr,6,2025,Selcuk Dental Journal,89.3,5439,2092,0,0.697,0.512,1.0,21376,1,baslik_sim=0.697,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1398297.pdf
+1398372,0,tr,15,2026,Ordu Üniversitesi Hemşirelik Çalışmaları Dergisi (Online) ,93.2,4487,1573,0,0.681,0.998,1.0,41754,1,baslik_sim=0.681,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1398372.pdf
+1400997,0,tr,10,2026,Sağlık Bilimleri Üniversitesi Hemşirelik Dergisi (Online),86.1,5355,2171,0,0.657,0.012,1.0,39515,1,baslik_sim=0.657;ozet-yok,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1400997.pdf
+1420458,0,mix,17,2026,Sanat Yazıları,95.4,4128,1469,0,0.642,0.024,0.0,40404,1,baslik_sim=0.642;ozet_sim=0.024;yazar_rec=0.0,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1420458.pdf
+1431312,0,tr,19,2026,Fe Dergi,95.8,4239,1684,0,0.691,1.0,1.0,61704,1,baslik_sim=0.691,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1431312.pdf
+1438735,1,tr,11,2026,Folklor akademi dergisi (Online),96.3,5432,2385,0,1.0,0.985,1.0,42862,1,,C:\Users\EG\Desktop\Tubitak___is\06_Benchmark_Veritabani\kolay_ham\makale_1438735.pdf

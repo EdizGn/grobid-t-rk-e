@@ -1,0 +1,38 @@
+Degerlendirilen: 1435 dosya   |   referans dili: TR+EN
+
+#### Strict Matching (exact matches)
+| label          | precision |    recall |        f1 | support |
+|----------------|-----------|-----------|-----------|---------|
+| title          |     21.58 |     19.23 |     20.34 |    1435 |
+| authors        |     12.17 |     10.80 |     11.44 |    1435 |
+| first_author   |      5.42 |      4.81 |      5.09 |    1435 |
+| abstract       |     11.78 |      9.41 |     10.46 |    1435 |
+| keywords       |     30.17 |     16.56 |     21.38 |     634 |
+
+#### Soft Matching (punctuation/case/space ignored)
+| label          | precision |    recall |        f1 | support |
+|----------------|-----------|-----------|-----------|---------|
+| title          |     35.42 |     31.57 |     33.38 |    1435 |
+| authors        |     12.40 |     11.01 |     11.66 |    1435 |
+| first_author   |     19.07 |     16.93 |     17.94 |    1435 |
+| abstract       |     45.29 |     36.17 |     40.22 |    1435 |
+| keywords       |     30.17 |     16.56 |     21.38 |     634 |
+
+#### Levenshtein Matching (>= 0.8)
+| label          | precision |    recall |        f1 | support |
+|----------------|-----------|-----------|-----------|---------|
+| title          |     53.17 |     47.39 |     50.11 |    1435 |
+| authors        |     26.06 |     23.14 |     24.51 |    1435 |
+| first_author   |     26.69 |     23.69 |     25.10 |    1435 |
+| abstract       |     79.06 |     63.14 |     70.21 |    1435 |
+| keywords       |     35.34 |     19.40 |     25.05 |     634 |
+
+#### Ratcliff/Obershelp Matching (>= 0.95)
+| label          | precision |    recall |        f1 | support |
+|----------------|-----------|-----------|-----------|---------|
+| title          |     42.69 |     38.05 |     40.24 |    1435 |
+| authors        |     16.41 |     14.56 |     15.43 |    1435 |
+| first_author   |     19.39 |     17.21 |     18.24 |    1435 |
+| abstract       |     74.08 |     59.16 |     65.79 |    1435 |
+| keywords       |     32.18 |     17.67 |     22.81 |     634 |
+

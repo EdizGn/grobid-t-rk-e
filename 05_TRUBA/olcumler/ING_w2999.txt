@@ -1,0 +1,38 @@
+Degerlendirilen: 519 dosya   |   referans dili: sadece TR
+
+#### Strict Matching (exact matches)
+| label          | precision |    recall |        f1 | support |
+|----------------|-----------|-----------|-----------|---------|
+| title          |     60.42 |     27.94 |     38.21 |     519 |
+| authors        |     53.06 |     10.02 |     16.86 |     519 |
+| first_author   |     75.51 |     14.26 |     23.99 |     519 |
+| abstract       |     13.35 |     11.37 |     12.28 |     519 |
+| keywords       |     69.42 |     49.35 |     57.69 |     460 |
+
+#### Soft Matching (punctuation/case/space ignored)
+| label          | precision |    recall |        f1 | support |
+|----------------|-----------|-----------|-----------|---------|
+| title          |     72.92 |     33.72 |     46.11 |     519 |
+| authors        |     53.06 |     10.02 |     16.86 |     519 |
+| first_author   |     84.69 |     15.99 |     26.90 |     519 |
+| abstract       |     50.45 |     42.97 |     46.41 |     519 |
+| keywords       |     69.42 |     49.35 |     57.69 |     460 |
+
+#### Levenshtein Matching (>= 0.8)
+| label          | precision |    recall |        f1 | support |
+|----------------|-----------|-----------|-----------|---------|
+| title          |     77.92 |     36.03 |     49.28 |     519 |
+| authors        |     62.24 |     11.75 |     19.77 |     519 |
+| first_author   |     85.71 |     16.18 |     27.23 |     519 |
+| abstract       |     76.47 |     65.13 |     70.34 |     519 |
+| keywords       |     76.76 |     54.57 |     63.79 |     460 |
+
+#### Ratcliff/Obershelp Matching (>= 0.95)
+| label          | precision |    recall |        f1 | support |
+|----------------|-----------|-----------|-----------|---------|
+| title          |     75.83 |     35.07 |     47.96 |     519 |
+| authors        |     60.20 |     11.37 |     19.12 |     519 |
+| first_author   |     85.71 |     16.18 |     27.23 |     519 |
+| abstract       |     69.46 |     59.15 |     63.89 |     519 |
+| keywords       |     70.64 |     50.22 |     58.70 |     460 |
+

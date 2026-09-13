@@ -1,0 +1,38 @@
+Degerlendirilen: 519 dosya   |   referans dili: sadece TR
+
+#### Strict Matching (exact matches)
+| label          | precision |    recall |        f1 | support |
+|----------------|-----------|-----------|-----------|---------|
+| title          |     75.00 |      0.58 |      1.15 |     519 |
+| authors        |     30.21 |      5.59 |      9.43 |     519 |
+| first_author   |     60.42 |     11.18 |     18.86 |     519 |
+| abstract       |      0.00 |      0.00 |      0.00 |     519 |
+| keywords       |    100.00 |      0.22 |      0.43 |     460 |
+
+#### Soft Matching (punctuation/case/space ignored)
+| label          | precision |    recall |        f1 | support |
+|----------------|-----------|-----------|-----------|---------|
+| title          |     75.00 |      0.58 |      1.15 |     519 |
+| authors        |     30.21 |      5.59 |      9.43 |     519 |
+| first_author   |     64.58 |     11.95 |     20.16 |     519 |
+| abstract       |      0.00 |      0.00 |      0.00 |     519 |
+| keywords       |    100.00 |      0.22 |      0.43 |     460 |
+
+#### Levenshtein Matching (>= 0.8)
+| label          | precision |    recall |        f1 | support |
+|----------------|-----------|-----------|-----------|---------|
+| title          |     75.00 |      0.58 |      1.15 |     519 |
+| authors        |     34.38 |      6.36 |     10.73 |     519 |
+| first_author   |     65.62 |     12.14 |     20.49 |     519 |
+| abstract       |      0.00 |      0.00 |      0.00 |     519 |
+| keywords       |    100.00 |      0.22 |      0.43 |     460 |
+
+#### Ratcliff/Obershelp Matching (>= 0.95)
+| label          | precision |    recall |        f1 | support |
+|----------------|-----------|-----------|-----------|---------|
+| title          |     75.00 |      0.58 |      1.15 |     519 |
+| authors        |     32.29 |      5.97 |     10.08 |     519 |
+| first_author   |     65.62 |     12.14 |     20.49 |     519 |
+| abstract       |      0.00 |      0.00 |      0.00 |     519 |
+| keywords       |    100.00 |      0.22 |      0.43 |     460 |
+

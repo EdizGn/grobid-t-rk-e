@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TR Dizin & Grobid Kıyaslama Raporu</title>
+    <meta name="description"
+        content="Grobid XML çıktıları ile TR Dizin orijinal JSON metadatalarının kıyaslama tablosu ve analiz arayüzü.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="background-gradients">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+        <div class="glow-orb orb-3"></div>
+    </div>
+    <div class="container">
+        <a class="sayfa-gecis" href="olcumler.html">Model ölçümleri <span class="ok">&rarr;</span></a>
+        <header>
+            <h1>Grobid <span>Performans Analizi</span></h1>
+            <p>TR Dizin Orijinal Metadataları ile Grobid Çıktılarının Kıyaslanması</p>
+        </header>
+
+        <section class="summary-cards">
+            <!-- Satır 1 -->
+            <div class="card glass hover-lift">
+                <h3>Taranan Makale</h3>
+                <h2 id="total-articles">0</h2>
+                <div class="card-icon">📄</div>
+            </div>
+            <div class="card glass hover-lift">
+                <h3>Başlık (Bulma)</h3>
+                <h2 id="avg-title-score" class="score">0%</h2>
+                <div class="progress-bar">
+                    <div class="fill" id="title-fill"></div>
+                </div>
+                <div class="kapsam" id="kapsam-title"></div>
+            </div>
+            <div class="card glass hover-lift">
+                <h3>Başlık (Kesinlik)</h3>
+                <h2 id="avg-title-prec" class="score">0%</h2>
+                <div class="progress-bar">
+                    <div class="fill" id="title-prec-fill"></div>
+                </div>
+                <div class="kapsam" id="kapsam-title-prec"></div>
+            </div>
+            <div class="card glass hover-lift">
+                <h3>Özet (Bulma)</h3>
+                <h2 id="avg-abstract-score" class="score">0%</h2>
+                <div class="progress-bar">
+                    <div class="fill" id="abstract-fill"></div>
+                </div>
+                <div class="kapsam" id="kapsam-abstract"></div>
+            </div>
+            <div class="card glass hover-lift">
+                <h3>Özet (Kesinlik)</h3>
+                <h2 id="avg-abstract-prec" class="score">0%</h2>
+                <div class="progress-bar">
+                    <div class="fill" id="abstract-prec-fill"></div>
+                </div>
+                <div class="kapsam" id="kapsam-abstract-prec"></div>
+            </div>
+            <div class="card glass hover-lift">
+                <h3>DOI Başarısı</h3>
+                <h2 id="avg-doi-score" class="score">0%</h2>
+                <div class="progress-bar">
+                    <div class="fill" id="doi-fill"></div>
+                </div>
+                <div class="kapsam" id="kapsam-doi"></div>
+            </div>
+
+            <!-- Satır 2 -->
+            <div class="card glass hover-lift">
+                <h3>Yazar (Bulma)</h3>
+                <h2 id="avg-author-score" class="score">0%</h2>
+                <div class="progress-bar">
+                    <div class="fill" id="author-fill"></div>
+                </div>
+                <div class="kapsam" id="kapsam-author"></div>
+            </div>
+            <div class="card glass hover-lift">
+                <h3>Yazar (Kesinlik)</h3>
+                <h2 id="avg-author-prec" class="score">0%</h2>
+                <div class="progress-bar">
+                    <div class="fill" id="author-prec-fill"></div>
+                </div>
+                <div class="kapsam" id="kapsam-author-prec"></div>
+            </div>
+            <div class="card glass hover-lift">
+                <h3>Dergi Başarısı</h3>
+                <h2 id="avg-journal-score" class="score">0%</h2>
+                <div class="progress-bar">
+                    <div class="fill" id="journal-fill"></div>
+                </div>
+                <div class="kapsam" id="kapsam-journal"></div>
+            </div>
+            <div class="card glass hover-lift">
+                <h3>Yıl Başarısı</h3>
+                <h2 id="avg-year-score" class="score">0%</h2>
+                <div class="progress-bar">
+                    <div class="fill" id="year-fill"></div>
+                </div>
+                <div class="kapsam" id="kapsam-year"></div>
+            </div>
+        </section>
+
+        <section class="controls glass">
+            <input type="text" id="searchInput" placeholder="Makale ID, Başlık veya Kelime Ara...">
+            <div class="filters">
+                <select id="sortFilter">
+                    <option value="default">Sıralama: Varsayılan</option>
+                    <option value="title-desc">Başlık Başarısı: Yüksek &gt; Düşük</option>
+                    <option value="title-asc">Başlık Başarısı: Düşük &gt; Yüksek</option>
+                    <option value="abs-desc">Özet Başarısı: Yüksek &gt; Düşük</option>
+                    <option value="abs-asc">Özet Başarısı: Düşük &gt; Yüksek</option>
+                </select>
+            </div>
+        </section>
+
+        <section class="table-container glass">
+            <div class="table-wrapper">
+                <table id="dataTable">
+                    <thead>
+                        <tr>
+                            <th>Makale ID</th>
+                        <th>Durum</th>
+                        <th>Orijinal Başlık</th>
+                        <th>Grobid Başlık</th>
+                        <th>Başlık Skoru (Bul/Kes)</th>
+                        <th>Özet Skoru (Bul/Kes)</th>
+                        <th>Yazar Skoru (Bul/Kes)</th>
+                        <th>Kelime (Bulma)</th>
+                        <th>Kelime (Kesinlik)</th>
+                        <th>DOI</th>
+                        <th>Dergi</th>
+                        <th>Yıl</th>
+                        <th>Aksiyon</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody">
+                        <!-- Rows injected via JS -->
+                    </tbody>
+                </table>
+            </div>
+            <div id="pagination" class="pagination">
+                <button id="prevBtn" class="glass-btn" disabled>&laquo; Önceki</button>
+                <span id="pageInfo">Sayfa 1 / 1</span>
+                <button id="nextBtn" class="glass-btn">Sonraki &raquo;</button>
+            </div>
+        </section>
+    </div>
+
+    <!-- Modal for details -->
+    <div id="detailModal" class="modal">
+        <div class="modal-content glass">
+            <div class="modal-header">
+                <h2 id="modal-title">Makale Detayları</h2>
+                <span class="close-btn">&times;</span>
+            </div>
+            <div class="comparison-grid">
+                <div class="col original-col">
+                    <div class="col-header badge-green">TR Dizin (Orijinal)</div>
+                    <h4>Başlık</h4>
+                    <p id="modal-orig-title"></p>
+                    <h4>Özet</h4>
+                    <p id="modal-orig-abs"></p>
+                    <h4>Yazarlar</h4>
+                    <p id="modal-orig-authors"></p>
+                    <h4>Anahtar Kelimeler</h4>
+                    <p id="modal-orig-keywords"></p>
+                    <h4>Diğer (Yıl | Dergi | DOI)</h4>
+                    <p id="modal-orig-extra"></p>
+                </div>
+                <div class="col grobid-col">
+                    <div class="col-header badge-blue">Grobid XML Çıktısı</div>
+                    <h4>Başlık</h4>
+                    <p id="modal-grob-title"></p>
+                    <h4>Özet</h4>
+                    <p id="modal-grob-abs"></p>
+                    <h4>Yazarlar</h4>
+                    <p id="modal-grob-authors"></p>
+                    <h4>Anahtar Kelimeler</h4>
+                    <p id="modal-grob-keywords"></p>
+                    <h4>Diğer (Yıl | Dergi | DOI)</h4>
+                    <p id="modal-grob-extra"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Data script must be loaded before main script -->
+    <script src="data.js?v=2"></script>
+    <script src="script.js?v=2"></script>
+</body>
+
+</html>
