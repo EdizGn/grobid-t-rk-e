@@ -65,8 +65,8 @@ docker pull grobid/grobid:0.9.1-crf
 # 2) Eğitilmiş modeller (Releases'ten, indirince parmak iziyle doğrulanır)
 python 08_Modeller/model_indir.py --kur
 
-# 3) Makaleleri indir -- hangi makale hangi kümede, kume_listeleri/ söyler
-python 04_Genisletilmis_Egitim/adim1_veri_topla.py
+# 3) Ölçüm kümesini indir (PDF + metadata, tam olarak bizim ölçtüğümüz makaleler)
+python kume_indir.py test_1500
 
 # 4) Ölçüm
 python 03_Test_ve_Degerlendirme/grobid_standart_eval.py --diakritik-yoksay
@@ -75,8 +75,10 @@ python 03_Test_ve_Degerlendirme/grobid_standart_eval.py --diakritik-yoksay
 ### Kümeler `kume_listeleri/` altında
 
 Hangi makalenin test, hangisinin eğitim kümesinde olduğu bilgisi sadece
-`.db` dosyalarının içindeydi; onlar da depoya giremiyor. Bu yüzden her küme
-düz bir kimlik listesine döküldü:
+`.db` dosyalarının içindeydi; onlar da depoya giremiyor. Yöntem zaten
+betiklerde, ama yayınlanan sayıları doğrulamak ve eğitim/test ayrımını
+denetlemek için kümelerin kendisi de gerekiyordu. Her biri düz bir kimlik
+listesine döküldü:
 
 | Dosya | Makale | Nedir |
 |---|---|---|
@@ -92,6 +94,56 @@ kontrolü** yapar. Kontrol bir sızıntı buldu: `1229729` hem `test_1500`'de he
 `egitim_v4_2153`'te. Kaynağı eski 546'lık header kümesi — o küme test kümesi
 tanımlanmadan önce, dışlama mantığı olmadan yapılmıştı. Etkisi 1435 belgede
 1 (%0,07), ölçümleri değiştirmez; yeni boru hattı (`havuz_3992`) temiz.
+
+### Test kümesi: aynısı mı, yenisi mi?
+
+İkisi de geçerli, **ne sorduğunuza bağlı**:
+
+| Amaç | Nasıl | Neden |
+|---|---|---|
+| **Yöntemi sınamak / genelleme** | `adim1_veri_topla.py` ile taze rastgele örneklem | Asıl mesele yöntem. Yeni örneklem, tek bir test kümesine aşırı uyum yapmadığımızı da gösterir — bu anlamda daha güçlü bir sınav |
+| **Yayınlanan sayıları doğrulamak** | `kume_indir.py test_1500` | Aynı kümede aynı rakamı alırsanız kurulumunuz doğru demektir. Farklı örneklemde farklı sayı çıkar ve "kurulumum mu bozuk, örneklem mi başka" ayırt edilemez |
+| **Yeni bir modeli bizimkiyle kıyaslamak** | `kume_indir.py test_1500` | Test kümesi değişirse fark modelden mi örneklemden mi geldiği bilinmez |
+
+Ölçtüğümüz gürültü tabanı (başlık/özet/kelime ±0,6, yazar ±2,2) **aynı koşullar
+için** geçerli. Farklı örneklemler arası oynama bundan büyüktür ve ölçmedik —
+yani taze örneklemle çıkan 2-3 puanlık farkı "iyileşme" saymayın.
+
+Dashboard'daki bütün karşılaştırmaların anlamlı olmasının tek sebebi test
+kümesinin sabit tutulmuş olması; o yüzden liste duruyor. Ama yöntemi denemek
+için yeni 1500 makale çekmek gayet makul, hatta öğretici.
+
+### İki indirici var, ikisi de kendi kendine çalışır
+
+**`08_Modeller/model_indir.py` — eğitilmiş modeller**
+
+Depo adresini `git remote get-url origin`'den kendi bulur, GitHub Releases
+API'sinden son sürümün dosya listesini çeker, eksik olanları indirir. İnen her
+dosya **Wapiti parmak iziyle** doğrulanır: ilk baytlardaki `#mdl#2#<öznitelik>`
+sayısı beklenenden farklıysa dosya silinir ve uyarı basılır. Bu kontrol
+süs değil — projede bir kez stok sanılan yanlış bir model dosyası (10.792
+öznitelik, gerçeği 15.545) bir günlük ölçümü çöpe attı. Zaten doğru dosya
+varsa indirmez, atlar. `--kur` eklenirse `model_kur.py` ile GROBID'e de kurar.
+
+**`kume_indir.py` — makaleler**
+
+`kume_listeleri/` altındaki kimlik listesini okuyup o makaleleri TR Dizin'den
+indirir; PDF'i `makaleler/` altına, metadata'yı ilgili `.db`'ye yazar. Yarıda
+kesilirse kaldığı yerden devam eder.
+
+```bash
+python kume_indir.py --listele      # hangi kümeler var
+python kume_indir.py test_1500      # ölçüm referansını getir
+```
+
+> **Neden `adim1_veri_topla.py` bu işi görmüyor:** o betik `random.randint` ile
+> rastgele kimlik deniyor, çünkü işi *yeni* eğitim verisi toplamak. Belirli bir
+> kümeyi geri getiremez. Ayrıca kabul koşulu olarak **Türkçe özet** şart
+> koşuyor; otomatik etiketleme için doğru ama küme indirirken yanlış — test
+> kümesindeki 901 numaralı makalenin yalnızca İngilizce özeti var, `adim1` onu
+> elerdi. `kume_indir.py` filtre uygulamaz: küme üyeliği zaten listeyle belli.
+
+İndirilen dosyaların orijinalle birebir aynı olduğu doğrulandı (SHA-256).
 
 ### Yollar ve kişisel bilgi
 
